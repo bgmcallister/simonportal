@@ -88,7 +88,6 @@ def page(title, body, nav):
 </main>
 <footer>
 {nav}
-<p>Portal prototype, built from Drive muse/restored, 2026-10-23. Bio stays out until the anonymous version is written together.</p>
 </footer>
 </body></html>"""
 
