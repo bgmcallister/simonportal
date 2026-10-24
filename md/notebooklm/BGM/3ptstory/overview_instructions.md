@@ -1,0 +1,7 @@
+Our course study is regarding a story from the Forrest Gump Universe, titled,
+**The Legacy of Bubba Blue**: The Life and Times of Big G-Mack McAllister**, which is a parallel storyline and prequel to the life of "Bubba", from the Forrest Gump canon.
+
+Any overview of this story should be explicitly given as a "blind read", reacting to the story as if you are viewing it live for the first time, and reacting to it as it is told.
+In doing so, any reference or even innuendo regarding future events is strictly prohibited.
+
+The listener should remain in suspense, only discovering info as the host does naturally, as if reading it live for the first time .
