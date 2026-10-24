@@ -1,102 +1,163 @@
-<!DOCTYPE html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Portal</title><style>body{font-family:Georgia,serif;max-width:900px;margin:0 auto;padding:20px;line-height:1.6;color:#222}
-a{color:#004080} details{margin:8px 0} summary{font-size:1.2em;cursor:pointer;padding:8px;background:#eef2f7}
-.file{margin:6px 0 6px 24px;font-size:1.1em} .empty{margin-left:24px;color:#666}
-nav{border:2px solid #004080;padding:12px;margin:16px 0} main{margin-top:20px}
-</style></head>
-<body>
+<!DOCTYPE html><html lang='en'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>Portal</title><style>body{font-family:Georgia,serif;max-width:1000px;margin:0 auto;padding:20px;line-height:1.6} a{color:#004080} details{margin:10px 0} summary{cursor:pointer;padding:12px;background:#eef2f7;font-size:1.15em} .file{margin:0;padding:14px 12px;border-bottom:1px solid #ddd;font-size:1.1em} .file a{padding:6px 10px}</style></head><body>
 <iframe src="/simonportal/nav.html" title="Portal navigation" style="width:100%;height:360px;border:2px solid #004080"><nav><a href="/simonportal/nav.html">Full portal navigation</a></nav></iframe>
-
-<nav aria-label="Portal navigation" id="site-nav">
-<p><a href="index.html">Portal home</a> | <a href="tree.html">Full file explorer</a></p>
-<details><summary>▷_ellellem</summary><p>See the full explorer for every folder and document.</p></details>
-<details><summary>▶_user</summary><p>See the full explorer for every folder and document.</p></details>
-</nav>
-<main>
-<h1>Portal</h1>
+<main><h1>Portal</h1>
 <img src="assets/station-v16.webp" alt="Portal station, a blue front-on dollhouse-style building with rooms, a library, a garage, and a dome cockpit on top" style="max-width:100%;height:auto">
-<p>Station image goes at the top here in the finished portal. Below it is the full file explorer for the whole portal, in your format: folder, then file, then Download: [.md || .txt || .html].</p>
-<details><summary>_ellellem</summary>
-<details><summary>_handshake</summary>
-<p class="file">• 1_handshake.txt - Download: [<a href="#">1_handshake.md</a> || <a href="#">1_handshake.txt</a> || <a href="#">1_handshake.html</a>]</p>
-<p class="file">• 2_context.txt - Download: [<a href="#">2_context.md</a> || <a href="#">2_context.txt</a> || <a href="#">2_context.html</a>]</p>
-<p class="file">• 3_mirrors.txt - Download: [<a href="#">3_mirrors.md</a> || <a href="#">3_mirrors.txt</a> || <a href="#">3_mirrors.html</a>]</p>
-<p class="file">• 4_fieldnotes.txt - Download: [<a href="#">4_fieldnotes.md</a> || <a href="#">4_fieldnotes.txt</a> || <a href="#">4_fieldnotes.html</a>]</p>
-<p class="file">• NEW_HANDSHAKE.md - Download: [<a href="#">NEW_HANDSHAKE.md</a> || <a href="#">NEW_HANDSHAKE.txt</a> || <a href="#">NEW_HANDSHAKE.html</a>]</p>
+<p>Below is the full file tree, generated from the actual files in the portal. Folders open and close. Each file is a full-width row.</p>
+<details open><summary>(root)</summary>
+<div class='file'>• index — Read: [<a href='/simonportal/md/index.md'>.md</a> || <a href='/simonportal/txt/index.txt'>.txt</a> || <a href='/simonportal/html/index.html'>.html</a>]</div>
 </details>
-<details><summary>_llm_prompts</summary>
-<p class="file">• audio_overview_01.md - Download: [<a href="#">audio_overview_01.md</a> || <a href="#">audio_overview_01.txt</a> || <a href="#">audio_overview_01.html</a>]</p>
-<p class="file">• big_handshake.md - Download: [<a href="#">big_handshake.md</a> || <a href="#">big_handshake.txt</a> || <a href="#">big_handshake.html</a>]</p>
-<p class="file">• big_handshake1.md - Download: [<a href="#">big_handshake1.md</a> || <a href="#">big_handshake1.txt</a> || <a href="#">big_handshake1.html</a>]</p>
-<p class="file">• big_handshake2.md - Download: [<a href="#">big_handshake2.md</a> || <a href="#">big_handshake2.txt</a> || <a href="#">big_handshake2.html</a>]</p>
+<details open><summary>_ellellem</summary>
+<div class='file'>• 1 — Read: [<a href='/simonportal/md/_ellellem/1.md'>.md</a> || <a href='/simonportal/txt/_ellellem/1.txt'>.txt</a> || <a href='/simonportal/html/_ellellem/1.html'>.html</a>]</div>
+<div class='file'>• 2 — Read: [<a href='/simonportal/md/_ellellem/2.md'>.md</a> || <a href='/simonportal/txt/_ellellem/2.txt'>.txt</a> || <a href='/simonportal/html/_ellellem/2.html'>.html</a>]</div>
+<div class='file'>• ai_align — Read: [<a href='/simonportal/md/_ellellem/ai_align.md'>.md</a> || <a href='/simonportal/txt/_ellellem/ai_align.txt'>.txt</a> || <a href='/simonportal/html/_ellellem/ai_align.html'>.html</a>]</div>
+<div class='file'>• beat — Read: [<a href='/simonportal/md/_ellellem/beat.md'>.md</a> || <a href='/simonportal/txt/_ellellem/beat.txt'>.txt</a> || <a href='/simonportal/html/_ellellem/beat.html'>.html</a>]</div>
+<div class='file'>• beatmap — Read: [<a href='/simonportal/md/_ellellem/beatmap.md'>.md</a> || <a href='/simonportal/txt/_ellellem/beatmap.txt'>.txt</a> || <a href='/simonportal/html/_ellellem/beatmap.html'>.html</a>]</div>
+<div class='file'>• bgm_sys_prompt — Read: [<a href='/simonportal/md/_ellellem/bgm_sys_prompt.md'>.md</a> || <a href='/simonportal/txt/_ellellem/bgm_sys_prompt.txt'>.txt</a> || <a href='/simonportal/html/_ellellem/bgm_sys_prompt.html'>.html</a>]</div>
+<div class='file'>• bigtalk — Read: [<a href='/simonportal/md/_ellellem/bigtalk.md'>.md</a> || <a href='/simonportal/txt/_ellellem/bigtalk.txt'>.txt</a> || <a href='/simonportal/html/_ellellem/bigtalk.html'>.html</a>]</div>
+<div class='file'>• bluprintforovrvw — Read: [<a href='/simonportal/md/_ellellem/bluprintforovrvw.md'>.md</a> || <a href='/simonportal/txt/_ellellem/bluprintforovrvw.txt'>.txt</a> || <a href='/simonportal/html/_ellellem/bluprintforovrvw.html'>.html</a>]</div>
+<div class='file'>• checklist — Read: [<a href='/simonportal/md/_ellellem/checklist.md'>.md</a> || <a href='/simonportal/txt/_ellellem/checklist.txt'>.txt</a> || <a href='/simonportal/html/_ellellem/checklist.html'>.html</a>]</div>
+<div class='file'>• context urls nc — Read: [<a href='/simonportal/md/_ellellem/context urls nc.md'>.md</a> || <a href='/simonportal/txt/_ellellem/context urls nc.txt'>.txt</a> || <a href='/simonportal/html/_ellellem/context urls nc.html'>.html</a>]</div>
+<div class='file'>• discord — Read: [<a href='/simonportal/md/_ellellem/discord.md'>.md</a> || <a href='/simonportal/txt/_ellellem/discord.txt'>.txt</a> || <a href='/simonportal/html/_ellellem/discord.html'>.html</a>]</div>
+<div class='file'>• f — Read: [<a href='/simonportal/md/_ellellem/f.md'>.md</a> || <a href='/simonportal/txt/_ellellem/f.txt'>.txt</a> || <a href='/simonportal/html/_ellellem/f.html'>.html</a>]</div>
+<div class='file'>• g — Read: [<a href='/simonportal/md/_ellellem/g.md'>.md</a> || <a href='/simonportal/txt/_ellellem/g.txt'>.txt</a> || <a href='/simonportal/html/_ellellem/g.html'>.html</a>]</div>
+<div class='file'>• gg — Read: [<a href='/simonportal/md/_ellellem/gg.md'>.md</a> || <a href='/simonportal/txt/_ellellem/gg.txt'>.txt</a> || <a href='/simonportal/html/_ellellem/gg.html'>.html</a>]</div>
+<div class='file'>• got123 — Read: [<a href='/simonportal/md/_ellellem/got123.md'>.md</a> || <a href='/simonportal/txt/_ellellem/got123.txt'>.txt</a> || <a href='/simonportal/html/_ellellem/got123.html'>.html</a>]</div>
+<div class='file'>• gpt — Read: [<a href='/simonportal/md/_ellellem/gpt.md'>.md</a> || <a href='/simonportal/txt/_ellellem/gpt.txt'>.txt</a> || <a href='/simonportal/html/_ellellem/gpt.html'>.html</a>]</div>
+<div class='file'>• gpt_prompt — Read: [<a href='/simonportal/md/_ellellem/gpt_prompt.md'>.md</a> || <a href='/simonportal/txt/_ellellem/gpt_prompt.txt'>.txt</a> || <a href='/simonportal/html/_ellellem/gpt_prompt.html'>.html</a>]</div>
+<div class='file'>• gpt_saved_files — Read: [<a href='/simonportal/md/_ellellem/gpt_saved_files.md'>.md</a> || <a href='/simonportal/txt/_ellellem/gpt_saved_files.txt'>.txt</a> || <a href='/simonportal/html/_ellellem/gpt_saved_files.html'>.html</a>]</div>
+<div class='file'>• j — Read: [<a href='/simonportal/md/_ellellem/j.md'>.md</a> || <a href='/simonportal/txt/_ellellem/j.txt'>.txt</a> || <a href='/simonportal/html/_ellellem/j.html'>.html</a>]</div>
+<div class='file'>• lit — Read: [<a href='/simonportal/md/_ellellem/lit.md'>.md</a> || <a href='/simonportal/txt/_ellellem/lit.txt'>.txt</a> || <a href='/simonportal/html/_ellellem/lit.html'>.html</a>]</div>
+<div class='file'>• ll — Read: [<a href='/simonportal/md/_ellellem/ll.md'>.md</a> || <a href='/simonportal/txt/_ellellem/ll.txt'>.txt</a> || <a href='/simonportal/html/_ellellem/ll.html'>.html</a>]</div>
+<div class='file'>• lyrix2 — Read: [<a href='/simonportal/md/_ellellem/lyrix2.md'>.md</a> || <a href='/simonportal/txt/_ellellem/lyrix2.txt'>.txt</a> || <a href='/simonportal/html/_ellellem/lyrix2.html'>.html</a>]</div>
+<div class='file'>• m — Read: [<a href='/simonportal/md/_ellellem/m.md'>.md</a> || <a href='/simonportal/txt/_ellellem/m.txt'>.txt</a> || <a href='/simonportal/html/_ellellem/m.html'>.html</a>]</div>
+<div class='file'>• nn — Read: [<a href='/simonportal/md/_ellellem/nn.md'>.md</a> || <a href='/simonportal/txt/_ellellem/nn.txt'>.txt</a> || <a href='/simonportal/html/_ellellem/nn.html'>.html</a>]</div>
+<div class='file'>• prmpt — Read: [<a href='/simonportal/md/_ellellem/prmpt.md'>.md</a> || <a href='/simonportal/txt/_ellellem/prmpt.txt'>.txt</a> || <a href='/simonportal/html/_ellellem/prmpt.html'>.html</a>]</div>
+<div class='file'>• prompt — Read: [<a href='/simonportal/md/_ellellem/prompt.md'>.md</a> || <a href='/simonportal/txt/_ellellem/prompt.txt'>.txt</a> || <a href='/simonportal/html/_ellellem/prompt.html'>.html</a>]</div>
+<div class='file'>• qq — Read: [<a href='/simonportal/md/_ellellem/qq.md'>.md</a> || <a href='/simonportal/txt/_ellellem/qq.txt'>.txt</a> || <a href='/simonportal/html/_ellellem/qq.html'>.html</a>]</div>
+<div class='file'>• s23_apps — Read: [<a href='/simonportal/md/_ellellem/s23_apps.md'>.md</a> || <a href='/simonportal/txt/_ellellem/s23_apps.txt'>.txt</a> || <a href='/simonportal/html/_ellellem/s23_apps.html'>.html</a>]</div>
+<div class='file'>• scrap — Read: [<a href='/simonportal/md/_ellellem/scrap.md'>.md</a> || <a href='/simonportal/txt/_ellellem/scrap.txt'>.txt</a> || <a href='/simonportal/html/_ellellem/scrap.html'>.html</a>]</div>
+<div class='file'>• spec — Read: [<a href='/simonportal/md/_ellellem/spec.md'>.md</a> || <a href='/simonportal/txt/_ellellem/spec.txt'>.txt</a> || <a href='/simonportal/html/_ellellem/spec.html'>.html</a>]</div>
+<div class='file'>• story1_temp — Read: [<a href='/simonportal/md/_ellellem/story1_temp.md'>.md</a> || <a href='/simonportal/txt/_ellellem/story1_temp.txt'>.txt</a> || <a href='/simonportal/html/_ellellem/story1_temp.html'>.html</a>]</div>
+<div class='file'>• u — Read: [<a href='/simonportal/md/_ellellem/u.md'>.md</a> || <a href='/simonportal/txt/_ellellem/u.txt'>.txt</a> || <a href='/simonportal/html/_ellellem/u.html'>.html</a>]</div>
 </details>
-<details><summary>_chatgpt</summary>
-<p class="file">• conversation files (GPT export, _gpt_data) - Download: [<a href="#">conversation files (GPT export, _gpt_data).md</a> || <a href="#">conversation files (GPT export, _gpt_data).txt</a> || <a href="#">conversation files (GPT export, _gpt_data).html</a>]</p>
+<details open><summary>_ellellem/_big-g-mack/_bgmstory/_2pt_story</summary>
+<div class='file'>• story1 — Read: [<a href='/simonportal/md/_ellellem/_big-g-mack/_bgmstory/_2pt_story/story1.md'>.md</a> || <a href='/simonportal/txt/_ellellem/_big-g-mack/_bgmstory/_2pt_story/story1.txt'>.txt</a> || <a href='/simonportal/html/_ellellem/_big-g-mack/_bgmstory/_2pt_story/story1.html'>.html</a>]</div>
+<div class='file'>• story2 — Read: [<a href='/simonportal/md/_ellellem/_big-g-mack/_bgmstory/_2pt_story/story2.md'>.md</a> || <a href='/simonportal/txt/_ellellem/_big-g-mack/_bgmstory/_2pt_story/story2.txt'>.txt</a> || <a href='/simonportal/html/_ellellem/_big-g-mack/_bgmstory/_2pt_story/story2.html'>.html</a>]</div>
 </details>
-<details><summary>_notebooklm</summary>
-<p class="file">• bgmstory2.md - Download: [<a href="#">bgmstory2.md</a> || <a href="#">bgmstory2.txt</a> || <a href="#">bgmstory2.html</a>]</p>
-<p class="file">• bgmstory3.md - Download: [<a href="#">bgmstory3.md</a> || <a href="#">bgmstory3.txt</a> || <a href="#">bgmstory3.html</a>]</p>
-<p class="file">• bgmstory_part1.md - Download: [<a href="#">bgmstory_part1.md</a> || <a href="#">bgmstory_part1.txt</a> || <a href="#">bgmstory_part1.html</a>]</p>
-<p class="file">• master_doc.md - Download: [<a href="#">master_doc.md</a> || <a href="#">master_doc.txt</a> || <a href="#">master_doc.html</a>]</p>
-<p class="file">• cont_guide.md - Download: [<a href="#">cont_guide.md</a> || <a href="#">cont_guide.txt</a> || <a href="#">cont_guide.html</a>]</p>
-<p class="file">• chain_of_title.md - Download: [<a href="#">chain_of_title.md</a> || <a href="#">chain_of_title.txt</a> || <a href="#">chain_of_title.html</a>]</p>
-<p class="file">• rules_production.md - Download: [<a href="#">rules_production.md</a> || <a href="#">rules_production.txt</a> || <a href="#">rules_production.html</a>]</p>
-<p class="file">• themes_legacy.md - Download: [<a href="#">themes_legacy.md</a> || <a href="#">themes_legacy.txt</a> || <a href="#">themes_legacy.html</a>]</p>
+<details open><summary>_ellellem/_big-g-mack/_bgmstory/_3pt_story</summary>
+<div class='file'>• ONE — Read: [<a href='/simonportal/md/_ellellem/_big-g-mack/_bgmstory/_3pt_story/ONE.md'>.md</a> || <a href='/simonportal/txt/_ellellem/_big-g-mack/_bgmstory/_3pt_story/ONE.txt'>.txt</a> || <a href='/simonportal/html/_ellellem/_big-g-mack/_bgmstory/_3pt_story/ONE.html'>.html</a>]</div>
+<div class='file'>• THREE — Read: [<a href='/simonportal/md/_ellellem/_big-g-mack/_bgmstory/_3pt_story/THREE.md'>.md</a> || <a href='/simonportal/txt/_ellellem/_big-g-mack/_bgmstory/_3pt_story/THREE.txt'>.txt</a> || <a href='/simonportal/html/_ellellem/_big-g-mack/_bgmstory/_3pt_story/THREE.html'>.html</a>]</div>
+<div class='file'>• TWO — Read: [<a href='/simonportal/md/_ellellem/_big-g-mack/_bgmstory/_3pt_story/TWO.md'>.md</a> || <a href='/simonportal/txt/_ellellem/_big-g-mack/_bgmstory/_3pt_story/TWO.txt'>.txt</a> || <a href='/simonportal/html/_ellellem/_big-g-mack/_bgmstory/_3pt_story/TWO.html'>.html</a>]</div>
+<div class='file'>• bgm-bgmstory1 — Read: [<a href='/simonportal/md/_ellellem/_big-g-mack/_bgmstory/_3pt_story/bgm-bgmstory1.md'>.md</a> || <a href='/simonportal/txt/_ellellem/_big-g-mack/_bgmstory/_3pt_story/bgm-bgmstory1.txt'>.txt</a> || <a href='/simonportal/html/_ellellem/_big-g-mack/_bgmstory/_3pt_story/bgm-bgmstory1.html'>.html</a>]</div>
+<div class='file'>• bgm-bgmstory2 — Read: [<a href='/simonportal/md/_ellellem/_big-g-mack/_bgmstory/_3pt_story/bgm-bgmstory2.md'>.md</a> || <a href='/simonportal/txt/_ellellem/_big-g-mack/_bgmstory/_3pt_story/bgm-bgmstory2.txt'>.txt</a> || <a href='/simonportal/html/_ellellem/_big-g-mack/_bgmstory/_3pt_story/bgm-bgmstory2.html'>.html</a>]</div>
+<div class='file'>• bgm-bgmstory3 — Read: [<a href='/simonportal/md/_ellellem/_big-g-mack/_bgmstory/_3pt_story/bgm-bgmstory3.md'>.md</a> || <a href='/simonportal/txt/_ellellem/_big-g-mack/_bgmstory/_3pt_story/bgm-bgmstory3.txt'>.txt</a> || <a href='/simonportal/html/_ellellem/_big-g-mack/_bgmstory/_3pt_story/bgm-bgmstory3.html'>.html</a>]</div>
+<div class='file'>• bgmstory1 — Read: [<a href='/simonportal/md/_ellellem/_big-g-mack/_bgmstory/_3pt_story/bgmstory1.md'>.md</a> || <a href='/simonportal/txt/_ellellem/_big-g-mack/_bgmstory/_3pt_story/bgmstory1.txt'>.txt</a> || <a href='/simonportal/html/_ellellem/_big-g-mack/_bgmstory/_3pt_story/bgmstory1.html'>.html</a>]</div>
+<div class='file'>• bgmstory2 — Read: [<a href='/simonportal/md/_ellellem/_big-g-mack/_bgmstory/_3pt_story/bgmstory2.md'>.md</a> || <a href='/simonportal/txt/_ellellem/_big-g-mack/_bgmstory/_3pt_story/bgmstory2.txt'>.txt</a> || <a href='/simonportal/html/_ellellem/_big-g-mack/_bgmstory/_3pt_story/bgmstory2.html'>.html</a>]</div>
+<div class='file'>• bgmstory3 — Read: [<a href='/simonportal/md/_ellellem/_big-g-mack/_bgmstory/_3pt_story/bgmstory3.md'>.md</a> || <a href='/simonportal/txt/_ellellem/_big-g-mack/_bgmstory/_3pt_story/bgmstory3.txt'>.txt</a> || <a href='/simonportal/html/_ellellem/_big-g-mack/_bgmstory/_3pt_story/bgmstory3.html'>.html</a>]</div>
 </details>
-<details><summary>_muse</summary>
-<p class="empty">Empty for now.</p>
+<details open><summary>_ellellem/_big-g-mack/_bgmstory/_full_story</summary>
+<div class='file'>• bgmstory — Read: [<a href='/simonportal/md/_ellellem/_big-g-mack/_bgmstory/_full_story/bgmstory.md'>.md</a> || <a href='/simonportal/txt/_ellellem/_big-g-mack/_bgmstory/_full_story/bgmstory.txt'>.txt</a> || <a href='/simonportal/html/_ellellem/_big-g-mack/_bgmstory/_full_story/bgmstory.html'>.html</a>]</div>
 </details>
-<details><summary>_gemini</summary>
-<p class="file">• googleai.md - Download: [<a href="#">googleai.md</a> || <a href="#">googleai.txt</a> || <a href="#">googleai.html</a>]</p>
+<details open><summary>_ellellem/_big-g-mack/_bgmstory/_working_draft</summary>
+<div class='file'>• _bgmstory_working_draft — Read: [<a href='/simonportal/md/_ellellem/_big-g-mack/_bgmstory/_working_draft/_bgmstory_working_draft.md'>.md</a> || <a href='/simonportal/txt/_ellellem/_big-g-mack/_bgmstory/_working_draft/_bgmstory_working_draft.txt'>.txt</a> || <a href='/simonportal/html/_ellellem/_big-g-mack/_bgmstory/_working_draft/_bgmstory_working_draft.html'>.html</a>]</div>
 </details>
-<details><summary>_big-g-mack</summary>
-<details><summary>_bgmstory</summary>
-<details><summary>_3pt_story</summary>
-<p class="file">• bgmstory1.md - Download: [<a href="#">bgmstory1.md</a> || <a href="#">bgmstory1.txt</a> || <a href="#">bgmstory1.html</a>]</p>
-<p class="file">• bgm-bgmstory1.md - Download: [<a href="#">bgm-bgmstory1.md</a> || <a href="#">bgm-bgmstory1.txt</a> || <a href="#">bgm-bgmstory1.html</a>]</p>
-<p class="file">• bgmstory2.md - Download: [<a href="#">bgmstory2.md</a> || <a href="#">bgmstory2.txt</a> || <a href="#">bgmstory2.html</a>]</p>
-<p class="file">• bgm-bgmstory2.md - Download: [<a href="#">bgm-bgmstory2.md</a> || <a href="#">bgm-bgmstory2.txt</a> || <a href="#">bgm-bgmstory2.html</a>]</p>
-<p class="file">• bgmstory3.md - Download: [<a href="#">bgmstory3.md</a> || <a href="#">bgmstory3.txt</a> || <a href="#">bgmstory3.html</a>]</p>
-<p class="file">• bgm-bgmstory3.md - Download: [<a href="#">bgm-bgmstory3.md</a> || <a href="#">bgm-bgmstory3.txt</a> || <a href="#">bgm-bgmstory3.html</a>]</p>
-<p class="file">• ONE.md - Download: [<a href="#">ONE.md</a> || <a href="#">ONE.txt</a> || <a href="#">ONE.html</a>]</p>
-<p class="file">• TWO.md - Download: [<a href="#">TWO.md</a> || <a href="#">TWO.txt</a> || <a href="#">TWO.html</a>]</p>
-<p class="file">• THREE.md - Download: [<a href="#">THREE.md</a> || <a href="#">THREE.txt</a> || <a href="#">THREE.html</a>]</p>
+<details open><summary>_ellellem/_big-g-mack/_persona_rico</summary>
+<div class='file'>• rico — Read: [<a href='/simonportal/md/_ellellem/_big-g-mack/_persona_rico/rico.md'>.md</a> || <a href='/simonportal/txt/_ellellem/_big-g-mack/_persona_rico/rico.txt'>.txt</a> || <a href='/simonportal/html/_ellellem/_big-g-mack/_persona_rico/rico.html'>.html</a>]</div>
 </details>
-<details><summary>_2pt_story</summary>
-<p class="file">• story1.md - Download: [<a href="#">story1.md</a> || <a href="#">story1.txt</a> || <a href="#">story1.html</a>]</p>
-<p class="file">• story2.md - Download: [<a href="#">story2.md</a> || <a href="#">story2.txt</a> || <a href="#">story2.html</a>]</p>
+<details open><summary>_ellellem/_gemini</summary>
+<div class='file'>• googleai — Read: [<a href='/simonportal/md/_ellellem/_gemini/googleai.md'>.md</a> || <a href='/simonportal/txt/_ellellem/_gemini/googleai.txt'>.txt</a> || <a href='/simonportal/html/_ellellem/_gemini/googleai.html'>.html</a>]</div>
 </details>
-<details><summary>_full_story</summary>
-<p class="file">• bgmstory.md - Download: [<a href="#">bgmstory.md</a> || <a href="#">bgmstory.txt</a> || <a href="#">bgmstory.html</a>]</p>
-<p class="file">• bgmstory.html - Download: [<a href="#">bgmstory.md</a> || <a href="#">bgmstory.txt</a> || <a href="#">bgmstory.html</a>]</p>
+<details open><summary>_ellellem/_handshake</summary>
+<div class='file'>• big_handshake1 — Read: [<a href='/simonportal/md/_ellellem/_handshake/big_handshake1.md'>.md</a> || <a href='/simonportal/txt/_ellellem/_handshake/big_handshake1.txt'>.txt</a> || <a href='/simonportal/html/_ellellem/_handshake/big_handshake1.html'>.html</a>]</div>
 </details>
-<details><summary>_4pt_story</summary>
-<p class="empty">Empty for now.</p>
+<details open><summary>_ellellem/_persona_miles</summary>
+<div class='file'>• miles — Read: [<a href='/simonportal/md/_ellellem/_persona_miles/miles.md'>.md</a> || <a href='/simonportal/txt/_ellellem/_persona_miles/miles.txt'>.txt</a> || <a href='/simonportal/html/_ellellem/_persona_miles/miles.html'>.html</a>]</div>
 </details>
-<details><summary>_working_draft</summary>
-<p class="file">• _bgmstory_working_draft.md - Download: [<a href="#">_bgmstory_working_draft.md</a> || <a href="#">_bgmstory_working_draft.txt</a> || <a href="#">_bgmstory_working_draft.html</a>]</p>
-</details></details>
-<details><summary>_persona_spec</summary>
-<p class="file">• miles.html - Download: [<a href="#">miles.md</a> || <a href="#">miles.txt</a> || <a href="#">miles.html</a>]</p>
+<details open><summary>_handshake</summary>
+<div class='file'>• 1_handshake — Read: [<a href='/simonportal/md/_handshake/1_handshake.md'>.md</a> || <a href='/simonportal/txt/_handshake/1_handshake.txt'>.txt</a> || <a href='/simonportal/html/_handshake/1_handshake.html'>.html</a>]</div>
+<div class='file'>• 1_handshake_main — Read: [<a href='/simonportal/md/_handshake/1_handshake_main.md'>.md</a> || <a href='/simonportal/txt/_handshake/1_handshake_main.txt'>.txt</a> || <a href='/simonportal/html/_handshake/1_handshake_main.html'>.html</a>]</div>
+<div class='file'>• 2_context — Read: [<a href='/simonportal/md/_handshake/2_context.md'>.md</a> || <a href='/simonportal/txt/_handshake/2_context.txt'>.txt</a> || <a href='/simonportal/html/_handshake/2_context.html'>.html</a>]</div>
+<div class='file'>• 3_mirrors — Read: [<a href='/simonportal/md/_handshake/3_mirrors.md'>.md</a> || <a href='/simonportal/txt/_handshake/3_mirrors.txt'>.txt</a> || <a href='/simonportal/html/_handshake/3_mirrors.html'>.html</a>]</div>
+<div class='file'>• 4_fieldnotes — Read: [<a href='/simonportal/md/_handshake/4_fieldnotes.md'>.md</a> || <a href='/simonportal/txt/_handshake/4_fieldnotes.txt'>.txt</a> || <a href='/simonportal/html/_handshake/4_fieldnotes.html'>.html</a>]</div>
+<div class='file'>• NEW_HANDSHAKE — Read: [<a href='/simonportal/md/_handshake/NEW_HANDSHAKE.md'>.md</a> || <a href='/simonportal/txt/_handshake/NEW_HANDSHAKE.txt'>.txt</a> || <a href='/simonportal/html/_handshake/NEW_HANDSHAKE.html'>.html</a>]</div>
+<div class='file'>• _index — Read: [<a href='/simonportal/md/_handshake/_index.md'>.md</a> || <a href='/simonportal/txt/_handshake/_index.txt'>.txt</a> || <a href='/simonportal/html/_handshake/_index.html'>.html</a>]</div>
+<div class='file'>• gem2 — Read: [<a href='/simonportal/md/_handshake/gem2.md'>.md</a> || <a href='/simonportal/txt/_handshake/gem2.txt'>.txt</a> || <a href='/simonportal/html/_handshake/gem2.html'>.html</a>]</div>
+<div class='file'>• gemini instr — Read: [<a href='/simonportal/md/_handshake/gemini instr.md'>.md</a> || <a href='/simonportal/txt/_handshake/gemini instr.txt'>.txt</a> || <a href='/simonportal/html/_handshake/gemini instr.html'>.html</a>]</div>
+<div class='file'>• geminisource — Read: [<a href='/simonportal/md/_handshake/geminisource.md'>.md</a> || <a href='/simonportal/txt/_handshake/geminisource.txt'>.txt</a> || <a href='/simonportal/html/_handshake/geminisource.html'>.html</a>]</div>
+<div class='file'>• handshake_v1_2 — Read: [<a href='/simonportal/md/_handshake/handshake_v1_2.md'>.md</a> || <a href='/simonportal/txt/_handshake/handshake_v1_2.txt'>.txt</a> || <a href='/simonportal/html/_handshake/handshake_v1_2.html'>.html</a>]</div>
+<div class='file'>• handshakeframeworkDRAFT — Read: [<a href='/simonportal/md/_handshake/handshakeframeworkDRAFT.md'>.md</a> || <a href='/simonportal/txt/_handshake/handshakeframeworkDRAFT.txt'>.txt</a> || <a href='/simonportal/html/_handshake/handshakeframeworkDRAFT.html'>.html</a>]</div>
+<div class='file'>• lilhandshake — Read: [<a href='/simonportal/md/_handshake/lilhandshake.md'>.md</a> || <a href='/simonportal/txt/_handshake/lilhandshake.txt'>.txt</a> || <a href='/simonportal/html/_handshake/lilhandshake.html'>.html</a>]</div>
+<div class='file'>• mirrors — Read: [<a href='/simonportal/md/_handshake/mirrors.md'>.md</a> || <a href='/simonportal/txt/_handshake/mirrors.txt'>.txt</a> || <a href='/simonportal/html/_handshake/mirrors.html'>.html</a>]</div>
+<div class='file'>• mirrors_good — Read: [<a href='/simonportal/md/_handshake/mirrors_good.md'>.md</a> || <a href='/simonportal/txt/_handshake/mirrors_good.txt'>.txt</a> || <a href='/simonportal/html/_handshake/mirrors_good.html'>.html</a>]</div>
+<div class='file'>• p — Read: [<a href='/simonportal/md/_handshake/p.md'>.md</a> || <a href='/simonportal/txt/_handshake/p.txt'>.txt</a> || <a href='/simonportal/html/_handshake/p.html'>.html</a>]</div>
+<div class='file'>• virtualhandshake_v1_2 — Read: [<a href='/simonportal/md/_handshake/virtualhandshake_v1_2.md'>.md</a> || <a href='/simonportal/txt/_handshake/virtualhandshake_v1_2.txt'>.txt</a> || <a href='/simonportal/html/_handshake/virtualhandshake_v1_2.html'>.html</a>]</div>
 </details>
-<details><summary>_persona_rico</summary>
-<p class="file">• rico.html - Download: [<a href="#">rico.md</a> || <a href="#">rico.txt</a> || <a href="#">rico.html</a>]</p>
-</details></details></details>
-<details><summary>_user</summary>
-<details><summary>_biography</summary>
-<p class="empty">Empty for now.</p>
+<details open><summary>_llm_prompts</summary>
+<div class='file'>• audio_overview_01 — Read: [<a href='/simonportal/md/_llm_prompts/audio_overview_01.md'>.md</a> || <a href='/simonportal/txt/_llm_prompts/audio_overview_01.txt'>.txt</a> || <a href='/simonportal/html/_llm_prompts/audio_overview_01.html'>.html</a>]</div>
+<div class='file'>• big_handshake — Read: [<a href='/simonportal/md/_llm_prompts/big_handshake.md'>.md</a> || <a href='/simonportal/txt/_llm_prompts/big_handshake.txt'>.txt</a> || <a href='/simonportal/html/_llm_prompts/big_handshake.html'>.html</a>]</div>
+<div class='file'>• big_handshake1 — Read: [<a href='/simonportal/md/_llm_prompts/big_handshake1.md'>.md</a> || <a href='/simonportal/txt/_llm_prompts/big_handshake1.txt'>.txt</a> || <a href='/simonportal/html/_llm_prompts/big_handshake1.html'>.html</a>]</div>
+<div class='file'>• big_handshake2 — Read: [<a href='/simonportal/md/_llm_prompts/big_handshake2.md'>.md</a> || <a href='/simonportal/txt/_llm_prompts/big_handshake2.txt'>.txt</a> || <a href='/simonportal/html/_llm_prompts/big_handshake2.html'>.html</a>]</div>
+<div class='file'>• bighandshake — Read: [<a href='/simonportal/md/_llm_prompts/bighandshake.md'>.md</a> || <a href='/simonportal/txt/_llm_prompts/bighandshake.txt'>.txt</a> || <a href='/simonportal/html/_llm_prompts/bighandshake.html'>.html</a>]</div>
+<div class='file'>• new — Read: [<a href='/simonportal/md/_llm_prompts/new.md'>.md</a> || <a href='/simonportal/txt/_llm_prompts/new.txt'>.txt</a> || <a href='/simonportal/html/_llm_prompts/new.html'>.html</a>]</div>
+<div class='file'>• nu — Read: [<a href='/simonportal/md/_llm_prompts/nu.md'>.md</a> || <a href='/simonportal/txt/_llm_prompts/nu.txt'>.txt</a> || <a href='/simonportal/html/_llm_prompts/nu.html'>.html</a>]</div>
 </details>
-<details><summary>_life_other</summary>
-<p class="empty">Empty for now.</p>
-</details></details>
-<p>Note: _4pt_story is empty here on purpose. You are rebuilding it yourself from the Gemini Notebook, word for word, and it will be filled in from your rebuild, not from anywhere else.</p>
-</main>
-<footer>
-<nav aria-label="Portal navigation" id="site-nav">
-<p><a href="index.html">Portal home</a> | <a href="tree.html">Full file explorer</a></p>
-<details><summary>▷_ellellem</summary><p>See the full explorer for every folder and document.</p></details>
-<details><summary>▶_user</summary><p>See the full explorer for every folder and document.</p></details>
-</nav>
-</footer>
-</body></html>
+<details open><summary>_notebooklm</summary>
+<div class='file'>• gh — Read: [<a href='/simonportal/md/_notebooklm/gh.md'>.md</a> || <a href='/simonportal/txt/_notebooklm/gh.txt'>.txt</a> || <a href='/simonportal/html/_notebooklm/gh.html'>.html</a>]</div>
+</details>
+<details open><summary>_notebooklm/BGM</summary>
+<div class='file'>• promp_inprogress — Read: [<a href='/simonportal/md/_notebooklm/BGM/promp_inprogress.md'>.md</a> || <a href='/simonportal/txt/_notebooklm/BGM/promp_inprogress.txt'>.txt</a> || <a href='/simonportal/html/_notebooklm/BGM/promp_inprogress.html'>.html</a>]</div>
+<div class='file'>• prompt — Read: [<a href='/simonportal/md/_notebooklm/BGM/prompt.md'>.md</a> || <a href='/simonportal/txt/_notebooklm/BGM/prompt.txt'>.txt</a> || <a href='/simonportal/html/_notebooklm/BGM/prompt.html'>.html</a>]</div>
+</details>
+<details open><summary>_notebooklm/BGM/2pt_overview</summary>
+<div class='file'>• bgmstory_part1 — Read: [<a href='/simonportal/md/_notebooklm/BGM/2pt_overview/bgmstory_part1.md'>.md</a> || <a href='/simonportal/txt/_notebooklm/BGM/2pt_overview/bgmstory_part1.txt'>.txt</a> || <a href='/simonportal/html/_notebooklm/BGM/2pt_overview/bgmstory_part1.html'>.html</a>]</div>
+</details>
+<details open><summary>_notebooklm/BGM/3pt_story</summary>
+<div class='file'>• bgmstory2 — Read: [<a href='/simonportal/md/_notebooklm/BGM/3pt_story/bgmstory2.md'>.md</a> || <a href='/simonportal/txt/_notebooklm/BGM/3pt_story/bgmstory2.txt'>.txt</a> || <a href='/simonportal/html/_notebooklm/BGM/3pt_story/bgmstory2.html'>.html</a>]</div>
+<div class='file'>• bgmstory3 — Read: [<a href='/simonportal/md/_notebooklm/BGM/3pt_story/bgmstory3.md'>.md</a> || <a href='/simonportal/txt/_notebooklm/BGM/3pt_story/bgmstory3.txt'>.txt</a> || <a href='/simonportal/html/_notebooklm/BGM/3pt_story/bgmstory3.html'>.html</a>]</div>
+<div class='file'>• gemini — Read: [<a href='/simonportal/md/_notebooklm/BGM/3pt_story/gemini.md'>.md</a> || <a href='/simonportal/txt/_notebooklm/BGM/3pt_story/gemini.txt'>.txt</a> || <a href='/simonportal/html/_notebooklm/BGM/3pt_story/gemini.html'>.html</a>]</div>
+<div class='file'>• gemini2 — Read: [<a href='/simonportal/md/_notebooklm/BGM/3pt_story/gemini2.md'>.md</a> || <a href='/simonportal/txt/_notebooklm/BGM/3pt_story/gemini2.txt'>.txt</a> || <a href='/simonportal/html/_notebooklm/BGM/3pt_story/gemini2.html'>.html</a>]</div>
+<div class='file'>• overview_instructions — Read: [<a href='/simonportal/md/_notebooklm/BGM/3pt_story/overview_instructions.md'>.md</a> || <a href='/simonportal/txt/_notebooklm/BGM/3pt_story/overview_instructions.txt'>.txt</a> || <a href='/simonportal/html/_notebooklm/BGM/3pt_story/overview_instructions.html'>.html</a>]</div>
+</details>
+<details open><summary>_notebooklm/BGM/Misc</summary>
+<div class='file'>• audiooverview — Read: [<a href='/simonportal/md/_notebooklm/BGM/Misc/audiooverview.md'>.md</a> || <a href='/simonportal/txt/_notebooklm/BGM/Misc/audiooverview.txt'>.txt</a> || <a href='/simonportal/html/_notebooklm/BGM/Misc/audiooverview.html'>.html</a>]</div>
+<div class='file'>• bgmsrc3 — Read: [<a href='/simonportal/md/_notebooklm/BGM/Misc/bgmsrc3.md'>.md</a> || <a href='/simonportal/txt/_notebooklm/BGM/Misc/bgmsrc3.txt'>.txt</a> || <a href='/simonportal/html/_notebooklm/BGM/Misc/bgmsrc3.html'>.html</a>]</div>
+<div class='file'>• bmgsrc2 — Read: [<a href='/simonportal/md/_notebooklm/BGM/Misc/bmgsrc2.md'>.md</a> || <a href='/simonportal/txt/_notebooklm/BGM/Misc/bmgsrc2.txt'>.txt</a> || <a href='/simonportal/html/_notebooklm/BGM/Misc/bmgsrc2.html'>.html</a>]</div>
+<div class='file'>• g — Read: [<a href='/simonportal/md/_notebooklm/BGM/Misc/g.md'>.md</a> || <a href='/simonportal/txt/_notebooklm/BGM/Misc/g.txt'>.txt</a> || <a href='/simonportal/html/_notebooklm/BGM/Misc/g.html'>.html</a>]</div>
+<div class='file'>• ovrvw1 — Read: [<a href='/simonportal/md/_notebooklm/BGM/Misc/ovrvw1.md'>.md</a> || <a href='/simonportal/txt/_notebooklm/BGM/Misc/ovrvw1.txt'>.txt</a> || <a href='/simonportal/html/_notebooklm/BGM/Misc/ovrvw1.html'>.html</a>]</div>
+<div class='file'>• ovrvw2 — Read: [<a href='/simonportal/md/_notebooklm/BGM/Misc/ovrvw2.md'>.md</a> || <a href='/simonportal/txt/_notebooklm/BGM/Misc/ovrvw2.txt'>.txt</a> || <a href='/simonportal/html/_notebooklm/BGM/Misc/ovrvw2.html'>.html</a>]</div>
+</details>
+<details open><summary>_notebooklm/BGM/without_spec</summary>
+<div class='file'>• chain_of_title — Read: [<a href='/simonportal/md/_notebooklm/BGM/without_spec/chain_of_title.md'>.md</a> || <a href='/simonportal/txt/_notebooklm/BGM/without_spec/chain_of_title.txt'>.txt</a> || <a href='/simonportal/html/_notebooklm/BGM/without_spec/chain_of_title.html'>.html</a>]</div>
+<div class='file'>• cont_guide — Read: [<a href='/simonportal/md/_notebooklm/BGM/without_spec/cont_guide.md'>.md</a> || <a href='/simonportal/txt/_notebooklm/BGM/without_spec/cont_guide.txt'>.txt</a> || <a href='/simonportal/html/_notebooklm/BGM/without_spec/cont_guide.html'>.html</a>]</div>
+<div class='file'>• español — Read: [<a href='/simonportal/md/_notebooklm/BGM/without_spec/español.md'>.md</a> || <a href='/simonportal/txt/_notebooklm/BGM/without_spec/español.txt'>.txt</a> || <a href='/simonportal/html/_notebooklm/BGM/without_spec/español.html'>.html</a>]</div>
+<div class='file'>• master_doc — Read: [<a href='/simonportal/md/_notebooklm/BGM/without_spec/master_doc.md'>.md</a> || <a href='/simonportal/txt/_notebooklm/BGM/without_spec/master_doc.txt'>.txt</a> || <a href='/simonportal/html/_notebooklm/BGM/without_spec/master_doc.html'>.html</a>]</div>
+<div class='file'>• persona_spec — Read: [<a href='/simonportal/md/_notebooklm/BGM/without_spec/persona_spec.md'>.md</a> || <a href='/simonportal/txt/_notebooklm/BGM/without_spec/persona_spec.txt'>.txt</a> || <a href='/simonportal/html/_notebooklm/BGM/without_spec/persona_spec.html'>.html</a>]</div>
+<div class='file'>• rules_production — Read: [<a href='/simonportal/md/_notebooklm/BGM/without_spec/rules_production.md'>.md</a> || <a href='/simonportal/txt/_notebooklm/BGM/without_spec/rules_production.txt'>.txt</a> || <a href='/simonportal/html/_notebooklm/BGM/without_spec/rules_production.html'>.html</a>]</div>
+<div class='file'>• story — Read: [<a href='/simonportal/md/_notebooklm/BGM/without_spec/story.md'>.md</a> || <a href='/simonportal/txt/_notebooklm/BGM/without_spec/story.txt'>.txt</a> || <a href='/simonportal/html/_notebooklm/BGM/without_spec/story.html'>.html</a>]</div>
+<div class='file'>• story1 — Read: [<a href='/simonportal/md/_notebooklm/BGM/without_spec/story1.md'>.md</a> || <a href='/simonportal/txt/_notebooklm/BGM/without_spec/story1.txt'>.txt</a> || <a href='/simonportal/html/_notebooklm/BGM/without_spec/story1.html'>.html</a>]</div>
+<div class='file'>• story2 — Read: [<a href='/simonportal/md/_notebooklm/BGM/without_spec/story2.md'>.md</a> || <a href='/simonportal/txt/_notebooklm/BGM/without_spec/story2.txt'>.txt</a> || <a href='/simonportal/html/_notebooklm/BGM/without_spec/story2.html'>.html</a>]</div>
+<div class='file'>• themes_legacy — Read: [<a href='/simonportal/md/_notebooklm/BGM/without_spec/themes_legacy.md'>.md</a> || <a href='/simonportal/txt/_notebooklm/BGM/without_spec/themes_legacy.txt'>.txt</a> || <a href='/simonportal/html/_notebooklm/BGM/without_spec/themes_legacy.html'>.html</a>]</div>
+<div class='file'>• 日本語 — Read: [<a href='/simonportal/md/_notebooklm/BGM/without_spec/日本語.md'>.md</a> || <a href='/simonportal/txt/_notebooklm/BGM/without_spec/日本語.txt'>.txt</a> || <a href='/simonportal/html/_notebooklm/BGM/without_spec/日本語.html'>.html</a>]</div>
+</details>
+<details open><summary>_notebooklm/_overview_prompts</summary>
+<div class='file'>• 5 — Read: [<a href='/simonportal/md/_notebooklm/_overview_prompts/5.md'>.md</a> || <a href='/simonportal/txt/_notebooklm/_overview_prompts/5.txt'>.txt</a> || <a href='/simonportal/html/_notebooklm/_overview_prompts/5.html'>.html</a>]</div>
+<div class='file'>• audiooverviewprompts — Read: [<a href='/simonportal/md/_notebooklm/_overview_prompts/audiooverviewprompts.md'>.md</a> || <a href='/simonportal/txt/_notebooklm/_overview_prompts/audiooverviewprompts.txt'>.txt</a> || <a href='/simonportal/html/_notebooklm/_overview_prompts/audiooverviewprompts.html'>.html</a>]</div>
+<div class='file'>• f — Read: [<a href='/simonportal/md/_notebooklm/_overview_prompts/f.md'>.md</a> || <a href='/simonportal/txt/_notebooklm/_overview_prompts/f.txt'>.txt</a> || <a href='/simonportal/html/_notebooklm/_overview_prompts/f.html'>.html</a>]</div>
+<div class='file'>• lostlore — Read: [<a href='/simonportal/md/_notebooklm/_overview_prompts/lostlore.md'>.md</a> || <a href='/simonportal/txt/_notebooklm/_overview_prompts/lostlore.txt'>.txt</a> || <a href='/simonportal/html/_notebooklm/_overview_prompts/lostlore.html'>.html</a>]</div>
+<div class='file'>• overview_instructions — Read: [<a href='/simonportal/md/_notebooklm/_overview_prompts/overview_instructions.md'>.md</a> || <a href='/simonportal/txt/_notebooklm/_overview_prompts/overview_instructions.txt'>.txt</a> || <a href='/simonportal/html/_notebooklm/_overview_prompts/overview_instructions.html'>.html</a>]</div>
+<div class='file'>• overview_prompts — Read: [<a href='/simonportal/md/_notebooklm/_overview_prompts/overview_prompts.md'>.md</a> || <a href='/simonportal/txt/_notebooklm/_overview_prompts/overview_prompts.txt'>.txt</a> || <a href='/simonportal/html/_notebooklm/_overview_prompts/overview_prompts.html'>.html</a>]</div>
+<div class='file'>• prompt — Read: [<a href='/simonportal/md/_notebooklm/_overview_prompts/prompt.md'>.md</a> || <a href='/simonportal/txt/_notebooklm/_overview_prompts/prompt.txt'>.txt</a> || <a href='/simonportal/html/_notebooklm/_overview_prompts/prompt.html'>.html</a>]</div>
+<div class='file'>• prompts — Read: [<a href='/simonportal/md/_notebooklm/_overview_prompts/prompts.md'>.md</a> || <a href='/simonportal/txt/_notebooklm/_overview_prompts/prompts.txt'>.txt</a> || <a href='/simonportal/html/_notebooklm/_overview_prompts/prompts.html'>.html</a>]</div>
+<div class='file'>• temp_prompts — Read: [<a href='/simonportal/md/_notebooklm/_overview_prompts/temp_prompts.md'>.md</a> || <a href='/simonportal/txt/_notebooklm/_overview_prompts/temp_prompts.txt'>.txt</a> || <a href='/simonportal/html/_notebooklm/_overview_prompts/temp_prompts.html'>.html</a>]</div>
+</details>
+<details open><summary>_user/_biography</summary>
+<div class='file'>• bio-anonymous — Read: [<a href='/simonportal/md/_user/_biography/bio-anonymous.md'>.md</a> || <a href='/simonportal/txt/_user/_biography/bio-anonymous.txt'>.txt</a> || <a href='/simonportal/html/_user/_biography/bio-anonymous.html'>.html</a>]</div>
+</details>
+<details open><summary>persona-miguel_rico_rivera</summary>
+<div class='file'>• ricogmack — Read: [<a href='/simonportal/md/persona-miguel_rico_rivera/ricogmack.md'>.md</a> || <a href='/simonportal/txt/persona-miguel_rico_rivera/ricogmack.txt'>.txt</a> || <a href='/simonportal/html/persona-miguel_rico_rivera/ricogmack.html'>.html</a>]</div>
+</details>
+<details open><summary>_persona_miles</summary>
+<div class='file'>• miles.html — Read: [<a href='/simonportal/_persona_miles/miles.html'>.html original</a>]</div>
+<div class='file'>• miles.md — Read: [<a href='/simonportal/_persona_miles/miles.md'>.md original</a>]</div>
+</details>
+</main></body></html>
