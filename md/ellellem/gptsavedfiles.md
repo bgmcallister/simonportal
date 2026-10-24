@@ -1,0 +1,987 @@
+Android Termux LLM-to-LLM Bridge — Complete Setup Context
+
+1. PROJECT GOAL
+
+Build a text-only LLM-to-LLM conversation bridge on an Android phone (Samsung Galaxy S23) using Termux.
+
+The desired final architecture is:
+
+Python Controller
+    ├── Agent A: ChatGPT
+    └── Agent B: Sesame
+
+Conversation flow:
+
+ChatGPT → Sesame → ChatGPT → Sesame → ...
+
+The controller should exchange ordinary text with both systems and alternate turns for a bounded number of messages.
+
+IMPORTANT:
+
+- This is NOT a voice project.
+- Do NOT introduce microphone capture.
+- Do NOT introduce speech recognition.
+- Do NOT introduce TTS.
+- Do NOT introduce audio routing.
+- Do NOT introduce WebRTC.
+- Sesame's underlying text-chat WebSocket is the target.
+- The existing ChatGPT local REST adapter should remain intact unless a change is actually necessary.
+
+The user wants the implementation to be practical and lightweight rather than over-engineered.
+
+---
+
+2. USER'S WORKING ENVIRONMENT
+
+Device:
+
+Samsung Galaxy S23
+
+Operating environment:
+
+Android
+Termux
+Termux:X11
+
+Architecture:
+
+ARM64 / aarch64
+
+Termux components already working:
+
+Python 3.14.6
+Node.js 26.4.0
+npm 11.19.1
+Chromium 149.0.7827.155
+procps 4.0.7
+python-greenlet 3.5.5
+pyee
+typing-extensions
+termux-playwright 1.80.4
+websockets 17.1
+
+Termux native Chromium executable:
+
+$PREFIX/lib/chromium/chrome
+
+The command used to invoke it is:
+
+chromium-browser
+
+Termux:X11 is installed and working.
+
+X display:
+
+DISPLAY=:0
+
+A basic Chromium launch using:
+
+DISPLAY=:0 chromium-browser --no-sandbox about:blank
+
+works.
+
+---
+
+3. IMPORTANT PLAYWRIGHT/ANDROID DISCOVERY
+
+Normal Playwright installation/browser execution was not sufficient on this Android/Termux environment.
+
+The working solution was:
+
+1. Install "termux-playwright".
+2. Manually install Playwright browser version 1.61.0.
+3. Use the Termux Node binary instead of Playwright's bundled Node binary.
+4. Explicitly point Playwright to the native Termux Chromium executable.
+
+The critical environment variable is:
+
+PLAYWRIGHT_NODEJS_PATH=$PREFIX/bin/node
+
+The working native browser executable is:
+
+$PREFIX/lib/chromium/chrome
+
+This combination successfully produced:
+
+Python
+  ↓
+Playwright
+  ↓
+Termux Node
+  ↓
+native Termux Chromium
+  ↓
+Termux:X11
+
+Do not casually replace this arrangement with ordinary Playwright browser installation. It was specifically necessary because the bundled Playwright Node binary expected:
+
+/lib/ld-linux-aarch64.so.1
+
+which Android/Termux does not provide in the normal Linux way.
+
+---
+
+4. AGENT A — CHATGPT
+
+Agent A is an existing local REST API adapter based on:
+
+CodeMongerrr/cognitive_prosthetic
+
+Repository:
+
+https://github.com/CodeMongerrr/cognitive_prosthetic
+
+It controls the ChatGPT web interface through Playwright/browser automation.
+
+The repository is cloned at:
+
+~/cognitive_prosthetic
+
+The persistent ChatGPT browser profile is:
+
+~/cognitive_prosthetic/chatgpt_profile
+
+The user has already logged into ChatGPT through this persistent profile.
+
+The local ChatGPT server listens on:
+
+http://127.0.0.1:5001
+
+Health endpoint:
+
+GET /health
+
+Expected successful result:
+
+{"ready":true,"status":"running"}
+
+The server has also been successfully tested through its chat interface and "/new-chat".
+
+The basic server launch is:
+
+DISPLAY=:0 PLAYWRIGHT_NODEJS_PATH=$PREFIX/bin/node python chatgpt_api_server.py
+
+The adapter uses:
+
+- Flask
+- Flask-CORS
+- Playwright sync API
+- persistent browser context
+- native Termux Chromium
+- one browser worker/page
+- request queueing
+- contenteditable ChatGPT input
+- waits for the response to finish
+- extracts the latest assistant response
+
+The server's important existing behavior should NOT be rewritten unnecessarily.
+
+---
+
+5. CHATGPT ANDROID MODIFICATION
+
+"manual_login.py" was modified specifically for Termux/Android.
+
+The modification establishes:
+
+PLAYWRIGHT_NODEJS_PATH
+
+and:
+
+CHROMIUM_EXECUTABLE = os.path.join(
+    os.environ["PREFIX"],
+    "lib",
+    "chromium",
+    "chrome"
+)
+
+and passes that executable to Playwright's persistent browser context.
+
+Backups exist:
+
+manual_login.py.bak
+chatgpt_api_server.py.bak
+
+If troubleshooting Agent A, remember that this Android-specific configuration is intentional.
+
+---
+
+6. AGENT A ROLE IN THE FINAL BRIDGE
+
+The controller should treat ChatGPT as a simple local text endpoint.
+
+Conceptually:
+
+response = POST localhost:5001/chat
+
+with the appropriate JSON payload already supported by the existing server.
+
+Do not make the controller know anything about Playwright.
+
+The controller should simply see:
+
+send_to_chatgpt(text) → response_text
+
+The browser automation should remain hidden behind the local REST server.
+
+---
+
+7. SESAME DISCOVERY
+
+The original attempt was to automate Sesame's web UI.
+
+That approach was investigated extensively.
+
+Current Sesame web Research Preview behavior is different from the mobile text-chat experience.
+
+Official Sesame information indicates:
+
+- Mobile Preview supports voice AND text.
+- The current web Research Preview is primarily voice-call oriented.
+- Selecting Miles in the web interface produced an error in the anonymous browser path.
+- Browser UI automation therefore became the wrong layer to depend on.
+
+The user explicitly clarified that the desired Sesame interface is its TEXT CHAT capability.
+
+Therefore:
+
+DO NOT RETURN TO MIC/VOICE/WEBRTC DEBUGGING.
+
+The correct target is Sesame's underlying text-chat protocol.
+
+---
+
+8. SESAME REPOSITORY
+
+An unofficial independent Sesame client was cloned:
+
+https://github.com/anupchavan/sesame-client-unofficial
+
+Local path:
+
+~/sesame-client-unofficial
+
+This repository is being used as a source of protocol information.
+
+It is NOT an official Sesame SDK.
+
+Do not represent it as official.
+
+It is useful because its source code exposes the actual client-side text-chat protocol.
+
+The user has cloned it successfully.
+
+---
+
+9. SESAME AGENTS
+
+The client defines:
+
+Maya
+Miles
+Charlie
+Simone
+
+The enum is:
+
+case maya = "Maya"
+case miles = "Miles"
+case charlie = "Charlie"
+case simone = "Simone"
+
+The immediate target for Agent B is:
+
+Miles
+
+The WebSocket query parameter therefore uses:
+
+character=Miles
+
+---
+
+10. SESAME AUTHENTICATION
+
+The unofficial client uses Firebase authentication.
+
+The authentication sequence is:
+
+long-lived Firebase refresh token
+        ↓
+securetoken.googleapis.com
+        ↓
+short-lived Firebase ID token
+        ↓
+Sesame WebSocket Authorization header
+
+The built-in Firebase client API key in the unofficial source is:
+
+AIzaSyDtC7Uwb5pGAsdmrH2T4Gqdk5Mga07jYPM
+
+This key is described by the client as a public Firebase client key identifying the application rather than the individual user.
+
+Do NOT ask the user to paste their refresh token or ID token into the conversation.
+
+Credentials must remain local to the phone.
+
+The Swift client checks for the refresh token in:
+
+UserDefaults key: sesameRefreshToken
+
+or, for development, a local file:
+
+refresh_token
+
+The repository README indicates development secrets can be supplied via:
+
+secrets/api_key
+secrets/refresh_token
+
+and the source also supports the local "refresh_token" file mechanism.
+
+The Python adapter should preferably use a local file/environment mechanism so the secret never needs to appear in chat.
+
+NEVER put the user's actual refresh token into an LLM prompt, source-control repository, or chat transcript.
+
+---
+
+11. FIREBASE TOKEN EXCHANGE
+
+The exact token exchange observed in "AuthManager.swift" is:
+
+POST
+https://securetoken.googleapis.com/v1/token?key=<API_KEY>
+
+Content type:
+
+application/x-www-form-urlencoded
+
+Body:
+
+grant_type=refresh_token
+refresh_token=<REFRESH_TOKEN>
+
+The response contains:
+
+id_token
+
+and:
+
+expires_in
+
+The ID token is short-lived.
+
+The Python adapter should cache the ID token and refresh it when necessary rather than exchanging the refresh token for every message.
+
+The Swift client considers a cached token valid only while it has more than approximately 120 seconds remaining.
+
+A robust Python implementation can mirror this behavior.
+
+---
+
+12. SESAME WEBSOCKET ENDPOINT
+
+The exact WebSocket endpoint from the client is:
+
+wss://sesameai.app/agent-service-0/v2/connect
+
+Query parameters include:
+
+character=Miles
+
+and:
+
+usercontext=<URL-encoded JSON>
+
+The Swift client builds user context as:
+
+{"timezone":"<local timezone>"}
+
+and URL-encodes it.
+
+For example, the conceptual URL is:
+
+wss://sesameai.app/agent-service-0/v2/connect?character=Miles&usercontext=...
+
+The exact endpoint and protocol should be treated as discovered protocol behavior, not an official public API guarantee.
+
+---
+
+13. SESAME WEBSOCKET HEADERS
+
+The Swift client sends:
+
+Authorization: Bearer <FIREBASE_ID_TOKEN>
+
+Client-Name: iOS
+
+User-Agent: SesameAI_Beta/2
+
+The Python adapter should initially mirror these headers for maximum compatibility.
+
+Do not arbitrarily change them before testing.
+
+---
+
+14. SESAME WEBSOCKET HANDSHAKE
+
+After opening the WebSocket, the client sends a JSON-RPC request:
+
+initialize
+
+The observed form is:
+
+{
+  "jsonrpc": "2.0",
+  "id": "<UUID>",
+  "method": "initialize",
+  "params": {
+    "capabilities": {
+      "webrtc": true
+    }
+  }
+}
+
+The existing Swift client declares WebRTC capability during initialization.
+
+IMPORTANT:
+
+The LLM-to-LLM project does NOT use WebRTC.
+
+Do not implement WebRTC.
+
+The capability declaration exists because that is how the existing client initializes the session. It does not mean the Python controller should establish an audio connection.
+
+If desired, the first compatibility test should mirror the known client request exactly rather than prematurely modifying it.
+
+---
+
+15. GENERIC SESAME JSON-RPC REQUEST FORMAT
+
+The exact "request()" implementation was inspected.
+
+It creates:
+
+id = UUID().uuidString.lowercased()
+
+and constructs:
+
+{
+  "jsonrpc": "2.0",
+  "id": "<uuid>",
+  "method": "<method>"
+}
+
+If raw parameters are supplied:
+
+"params": <rawParams>
+
+Otherwise, if content is supplied:
+
+"params": {
+  "content": <content>
+}
+
+The request is stored in a pending-response dictionary keyed by its UUID.
+
+The response is expected to contain the same request ID so it can be matched to the pending request.
+
+The Swift implementation waits up to 20 seconds before treating a pending request as timed out.
+
+Therefore the Python implementation should have:
+
+- UUID request IDs
+- JSON-RPC 2.0
+- pending request matching
+- timeout handling
+
+---
+
+16. SESAME INITIALIZATION RESPONSE
+
+The initialization response contains a session ID.
+
+The Swift client extracts:
+
+content["session_id"]
+
+or, depending on response shape:
+
+result["session_id"]
+
+The client also extracts ICE information for WebRTC.
+
+The Python text adapter does NOT need ICE.
+
+The useful result is simply successful initialization and the session state.
+
+After initialization, the Swift client sends several notifications related to application state.
+
+These include:
+
+client.app_state
+
+with:
+
+{"is_chat_visible": true}
+
+and:
+
+update_profile
+
+with:
+
+{"settings":{"character":"Miles"}}
+
+and:
+
+client.voice_state
+
+with:
+
+{"voice":"disconnected"}
+
+The Python text adapter may initially omit nonessential UI/voice notifications unless testing shows they are required for chat operation.
+
+The goal is the minimum protocol necessary for text chat.
+
+---
+
+17. SESAME TEXT MESSAGE RPC
+
+The exact outgoing text-chat operation is:
+
+chat.message.create
+
+The Swift client constructs a message object:
+
+{
+  "sender": "user",
+  "content": "<TEXT>",
+  "type": 0,
+  "client_id": "<UUID>",
+  "created_at": "<ISO8601>",
+  "attachments": [],
+  "reply_snapshots": [],
+  "reactions": []
+}
+
+Then sends:
+
+{
+  "jsonrpc": "2.0",
+  "id": "<UUID>",
+  "method": "chat.message.create",
+  "params": {
+    "content": {
+      "attachments": [],
+      "message": {
+        "sender": "user",
+        "content": "<TEXT>",
+        "type": 0,
+        "client_id": "<UUID>",
+        "created_at": "<ISO8601>",
+        "attachments": [],
+        "reply_snapshots": [],
+        "reactions": []
+      }
+    }
+  }
+}
+
+The "client_id" is a UUID.
+
+The timestamp is ISO-8601 with the client's formatter.
+
+The basic Python adapter should reproduce this structure rather than inventing a simplified schema.
+
+---
+
+18. SESAME STREAMING RESPONSE
+
+The incoming response is streamed.
+
+The important events are:
+
+chat.streaming.start
+
+chat.streaming.chunk
+
+chat.streaming.end
+
+A streaming start contains:
+
+message_id
+
+and:
+
+sender
+
+Each chunk contains:
+
+message_id
+text
+
+The Python adapter should accumulate the chunk text for the same message ID.
+
+When:
+
+chat.streaming.end
+
+arrives, return the accumulated text as the completed Sesame response.
+
+Conceptually:
+
+start
+  ↓
+chunk: "Hello"
+  ↓
+chunk: " there"
+  ↓
+chunk: "..."
+  ↓
+end
+  ↓
+"Hello there..."
+
+Do not return individual chunks to the LLM controller unless streaming display is specifically desired.
+
+---
+
+19. OTHER SESAME EVENTS
+
+The client can also receive:
+
+chat
+typing_start
+chat_unread_count
+agent
+webrtc.*
+call.*
+
+For the text-to-text bridge, initially ignore:
+
+webrtc.*
+call.*
+
+and other UI-specific events unless they prove necessary.
+
+The "chat" event may contain historical/current messages.
+
+The "agent" event may represent activity/search/status.
+
+The first implementation only needs the streaming chat path.
+
+---
+
+20. SESAME HISTORY
+
+The Swift client has a "chat.get" request.
+
+The request uses:
+
+limit
+types
+timestamp
+
+This is useful if conversation history later needs to be synchronized.
+
+It is NOT required for the first minimal text adapter.
+
+The first goal is:
+
+connect → initialize → send text → receive stream → return text
+
+Do not implement history until the basic round trip works.
+
+---
+
+21. CURRENT STATE OF THE BUILD
+
+The following has already been completed:
+
+- Termux installed/configured.
+- Termux:X11 installed/configured.
+- Native Chromium installed.
+- Native Chromium verified working under Termux:X11.
+- Playwright Android workaround solved.
+- ChatGPT browser automation solved.
+- ChatGPT login completed.
+- ChatGPT local API server solved and tested.
+- Sesame web UI investigated.
+- Sesame browser automation path determined to be unnecessary.
+- Unofficial Sesame client cloned.
+- Sesame authentication source inspected.
+- Sesame WebSocket source inspected.
+- Sesame agent names inspected.
+- Exact handshake inspected.
+- Exact JSON-RPC request mechanism inspected.
+- Exact text message payload inspected.
+- Exact streaming response events inspected.
+- Python "websockets" package installed.
+
+Current Python package:
+
+websockets 17.1
+
+The project is therefore ready to move from protocol reconnaissance into implementation.
+
+---
+
+22. NEXT IMPLEMENTATION TARGET
+
+Create a small Python Sesame adapter.
+
+Prefer something like:
+
+~/sesame-client-unofficial/sesame_text_adapter.py
+
+The adapter should expose a simple interface such as:
+
+send_message(text) -> response_text
+
+Internally it should:
+
+1. Read the local refresh token.
+2. Exchange it for a Firebase ID token.
+3. Open the Sesame WebSocket for Miles.
+4. Send "initialize".
+5. Wait for successful initialization.
+6. Send "chat.message.create".
+7. Accumulate "chat.streaming.chunk" events.
+8. Stop at "chat.streaming.end".
+9. Return the completed text.
+10. Reuse the WebSocket for subsequent turns if practical.
+11. Refresh the Firebase ID token when it expires.
+12. Reconnect cleanly if the WebSocket dies.
+
+Do not build the full application yet.
+
+First prove:
+
+Python → Sesame → Python
+
+with one message.
+
+---
+
+23. AUTHENTICATION SAFETY
+
+Never request the user to paste:
+
+- Firebase refresh tokens
+- Firebase ID tokens
+- passwords
+- Sesame login cookies
+- session tokens
+- API credentials
+
+into the conversation.
+
+If a credential must be entered, instruct the user to place it directly into a local file or environment variable on the phone.
+
+For example, a local file may contain the refresh token.
+
+The LLM should never need to see its contents.
+
+If debugging authentication, ask only for:
+
+- success/failure
+- HTTP status
+- sanitized error message
+- whether a token was obtained
+
+Never ask the user to display the token itself.
+
+---
+
+24. DEVELOPMENT STYLE REQUIRED
+
+The user prefers:
+
+- one command at a time
+- exact commands that can be pasted into Termux
+- short explanations of why a command is being run
+- minimal repeated diagnostics
+- no unnecessary detours
+- no unnecessary semantic corrections
+- candid assessment when something is uncertain
+- practical engineering over elaborate architecture
+
+When a command is provided, make it directly executable.
+
+Avoid asking the user to manually create or edit large files if a heredoc or other one-shot command can safely create the file.
+
+If a command could expose a secret, do not construct it in a way that prints the secret.
+
+---
+
+25. DO NOT REDO THESE INVESTIGATIONS
+
+The following questions have already been answered:
+
+"Does Termux:X11 work?"
+
+YES.
+
+"Can Chromium run natively?"
+
+YES.
+
+"Can Playwright control native Chromium?"
+
+YES.
+
+"Can Playwright use Termux Node?"
+
+YES.
+
+"Can ChatGPT be controlled through the existing local REST server?"
+
+YES.
+
+"Is the ChatGPT login/profile working?"
+
+YES.
+
+"Does Sesame's web Research Preview provide the desired text-chat interface?"
+
+Not reliably; current web behavior is voice-oriented.
+
+"Should we keep debugging Sesame microphone/WebRTC?"
+
+NO.
+
+"Does the unofficial Sesame client reveal the text protocol?"
+
+YES.
+
+"Do we know the Sesame WebSocket endpoint?"
+
+YES.
+
+"Do we know the authentication mechanism?"
+
+YES.
+
+"Do we know the initialization RPC?"
+
+YES.
+
+"Do we know the outgoing chat RPC?"
+
+YES.
+
+"Do we know the incoming streaming events?"
+
+YES.
+
+"Is the Python WebSocket library installed?"
+
+YES — "websockets 17.1".
+
+Do not repeatedly ask or investigate these unless new evidence contradicts them.
+
+---
+
+26. FINAL TARGET
+
+Once the Sesame adapter works independently, build the controller:
+
+controller.py
+
+Conceptual interface:
+
+ChatGPT.send(text)
+Sesame.send(text)
+
+Then:
+
+initial_prompt → Agent A
+Agent A response → Agent B
+Agent B response → Agent A
+Agent A response → Agent B
+...
+
+with:
+
+- configurable number of turns
+- configurable starting agent
+- clear transcript logging
+- graceful timeout handling
+- graceful reconnect handling
+- ability to stop the conversation
+- no audio whatsoever
+
+The first version should remain intentionally simple.
+
+Do not build autonomous agents, databases, vector stores, message buses, GUIs, orchestration frameworks, or other infrastructure unless the project later demonstrates a need for them.
+
+---
+
+27. CRITICAL DISTINCTION
+
+Agent A and Agent B are adapters.
+
+They should not be confused with the controller.
+
+The architecture is:
+
+┌─────────────────────────────┐
+│      Python Controller      │
+│                             │
+│  turn management            │
+│  transcript                │
+│  limits                    │
+│  error handling            │
+└─────────────┬───────────────┘
+              │
+      ┌───────┴───────┐
+      │               │
+      ▼               ▼
+ChatGPT Adapter   Sesame Adapter
+      │               │
+      ▼               ▼
+localhost:5001    Sesame WebSocket
+      │               │
+      ▼               ▼
+  ChatGPT           Miles
+
+The controller should not know anything about browser automation or Firebase internals.
+
+Each adapter owns its own protocol.
+
+---
+
+28. WHAT HAS BEEN LEARNED
+
+The major engineering lesson from this build is:
+
+Do not automate the visible UI when the actual service protocol can be identified and used directly.
+
+For ChatGPT, the existing browser adapter is already working and is therefore retained.
+
+For Sesame, browser automation led into the wrong subsystem because the desired text interface is not the same as the current web voice-preview path.
+
+The unofficial client source exposed the actual text protocol, making a lightweight Python adapter much more appropriate.
+
+The project is now past discovery and at the implementation stage.
+
+Immediate next step
+
+Build and test the minimal Python Sesame text adapter.
+
+Start with:
+
+authentication
+↓
+WebSocket
+↓
+initialize
+↓
+chat.message.create
+↓
+streaming chunks
+↓
+completed response
+
+Only after that works should the two-LLM controller be created.

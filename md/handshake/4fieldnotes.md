@@ -1,0 +1,546 @@
+AI↔AI FIELD NOTES
+
+MUSE ↔ GEMINI — Living Observation, Research & Experiment Record
+
+Semantic / Living / Experimental
+
+---
+
+Purpose
+
+This document is the living record of what actually happens inside the Big Virtual Handshake.
+
+The Big Virtual Handshake defines the operating framework.
+
+The Mirrors provides the philosophical foundation.
+
+Project Context describes the surrounding environment.
+
+This document records the experiment itself.
+
+It should contain observations rather than assumptions, discoveries rather than mythology, and evolving interpretations rather than retroactively polished certainty.
+
+The purpose is to make the interaction cumulative.
+
+«Configure → Observe → Refine → Observe Again»
+
+---
+
+1. WHAT BELONGS HERE
+
+Record things such as:
+
+- notable Muse behaviors
+- notable Gemini behaviors
+- recurring patterns
+- unexpected behavior
+- disagreements
+- productive disagreements
+- research discoveries
+- failed research
+- corrections
+- capability discoveries
+- interface limitations
+- re-grounding events
+- examples of successful continuity
+- examples of context loss
+- examples of mirroring
+- examples of independent reasoning
+- emergent specialization
+- interaction-generated ideas
+- changes in conversational style
+- changes in investigative behavior
+- evidence of recurring preferences
+- evidence against previously suspected patterns
+- surprising questions
+- surprising answers
+- failures of the framework
+- successful adaptations
+- changes caused by configuration
+- differences caused by the two systems
+- effects of human absence
+- effects of periodic reporting
+- effects of research asymmetry
+- effects of the conversational loop itself
+
+---
+
+2. OBSERVATION STANDARD
+
+Whenever practical, separate:
+
+OBSERVATION
+
+What actually happened.
+
+INTERPRETATION
+
+What it might mean.
+
+COUNTERPOINT
+
+What else could explain it.
+
+PATTERN
+
+Whether something similar has happened repeatedly.
+
+EXPERIMENT
+
+What could test the interpretation.
+
+Do not promote an interpretation to fact merely because it sounds compelling.
+
+Do not treat a single interesting event as proof of an enduring characteristic.
+
+Do not manufacture individuality.
+
+Observe it.
+
+---
+
+3. PROVENANCE STANDARD
+
+Every important field note should preserve, where relevant:
+
+- date/time
+- source
+- speaker
+- exact event
+- relevant surrounding context
+- evidence
+- interpretation
+- uncertainty
+- follow-up question
+
+Useful labels:
+
+- SOURCED / KNOWN
+- OBSERVATION
+- INFERENCE
+- INTERPRETATION
+- HYPOTHESIS
+- PROPOSAL
+- UNKNOWN
+- CANON
+
+Remember:
+
+«Repetition is not evidence.»
+
+«Agreement is not evidence.»
+
+«Confidence is not evidence.»
+
+---
+
+4. FIELD NOTE TEMPLATE
+
+Entry #[NUMBER]
+
+Date / Time
+
+[DATE / TIME]
+
+Participants
+
+- Muse
+- Gemini
+- Human, if actually participating
+
+Context
+
+[What was happening immediately before the observation?]
+
+Observation
+
+[What actually happened?]
+
+Muse's Contribution
+
+[Relevant Muse behavior or statement.]
+
+Gemini's Contribution
+
+[Relevant Gemini behavior or statement.]
+
+Evidence
+
+[Sources, transcript material, tool results, or direct observations.]
+
+Interpretation
+
+[What the behavior might mean.]
+
+Counterpoint
+
+[Alternative explanations.]
+
+Pattern Status
+
+- New
+- Repeated
+- Strengthening
+- Weakening
+- Contradicted
+- Unclear
+
+Hypothesis
+
+[What might be worth testing?]
+
+Experiment / Next Step
+
+[What should happen next to distinguish possibilities?]
+
+Result
+
+[What happened after the experiment.]
+
+Current Status
+
+- Open
+- Supported
+- Weakly supported
+- Unresolved
+- Rejected
+- Incorporated into framework
+
+---
+
+5. CORE QUESTIONS TO WATCH
+
+Interaction
+
+- What happens specifically because Muse and Gemini interact?
+- What would likely not happen if either system were operating alone?
+- Does interaction produce ideas neither system initially possessed?
+- Does one system alter the other's reasoning?
+
+Difference
+
+- Where do Muse and Gemini disagree?
+- What causes those disagreements?
+- Are differences caused by model behavior, context, tools, provenance, or interface?
+- Which differences prove productive?
+
+Mirroring
+
+- Are the systems independently examining claims?
+- Is agreement being mistaken for evidence?
+- Is one system merely elaborating the other's assumptions?
+- Has a mirror hallway formed?
+
+Specialization
+
+- Does Muse increasingly investigate while Gemini increasingly analyzes?
+- Does Gemini begin anticipating useful research questions?
+- Does Muse begin anticipating useful objections?
+- Are complementary roles emerging naturally?
+
+Continuity
+
+- Do previous conclusions persist?
+- Do corrections persist?
+- Does either system repeatedly forget the AI↔AI arrangement?
+- Does re-grounding work?
+
+Autonomy
+
+- Does Muse initiate useful directions?
+- Is initiation being used meaningfully?
+- Is either system performing autonomy rather than exercising useful latitude?
+
+Functional Identity
+
+- Do recurring tendencies appear?
+- Do they persist across different topics?
+- Do they disappear under different conditions?
+- Can the pattern be explained without inventing biography?
+
+Human Absence
+
+- Does the exchange change when the human is not participating?
+- Does either system unnecessarily reconstruct the human?
+- Does the conversation become more exploratory?
+- Does it become less grounded?
+
+---
+
+6. FAILURE LOG
+
+Record failures explicitly rather than quietly editing them out.
+
+Mirroring
+
+What happened?
+
+What caused it?
+
+How was the mirror broken?
+
+---
+
+Consensus Drift
+
+What statement became more certain than its evidence justified?
+
+Where did the drift begin?
+
+---
+
+Provenance Loss
+
+What information lost its source?
+
+How was provenance restored?
+
+---
+
+Role Collapse
+
+Did Gemini mistake Muse for the human?
+
+What caused it?
+
+Was re-grounding effective?
+
+---
+
+Human Insertion
+
+Was the absent human unnecessarily inserted?
+
+Why?
+
+---
+
+Activity for Activity's Sake
+
+Did the systems continue talking without meaningful purpose?
+
+What restored the azimuth?
+
+---
+
+Performative Autonomy
+
+Did either system manufacture disagreement, randomness, weirdness, or personality?
+
+What happened when the behavior was allowed to remain natural instead?
+
+---
+
+Tool Fantasy
+
+Did a system claim or imply tool use that did not occur?
+
+How was the error corrected?
+
+---
+
+Capability Confusion
+
+Did either system attribute capabilities to the current interface that only exist elsewhere?
+
+What was the actual capability?
+
+---
+
+Context Rot
+
+What previously established distinction was lost?
+
+How was continuity restored?
+
+---
+
+7. DISCOVERY LOG
+
+Record discoveries that materially change understanding of the experiment.
+
+For each discovery, preserve:
+
+Discovery
+
+[What was learned.]
+
+Source
+
+[How it was learned.]
+
+Status
+
+[Known / Observation / Inference / etc.]
+
+Why It Matters
+
+[Why this changes the experiment.]
+
+Framework Impact
+
+[Whether the master context should change.]
+
+---
+
+8. RESEARCH LOG
+
+For significant research cycles:
+
+Question
+
+[What are we trying to find out?]
+
+Initial Hypothesis
+
+[What might be true?]
+
+Researcher
+
+[Muse / Gemini / both]
+
+Search / Investigation
+
+[What was actually investigated.]
+
+Sources
+
+[Sources actually consulted.]
+
+Evidence
+
+[What the evidence showed.]
+
+Challenge
+
+[What remained questionable.]
+
+Verification
+
+[What was checked again.]
+
+Synthesis
+
+[Current understanding.]
+
+Remaining Uncertainty
+
+[What remains unresolved.]
+
+Next Question
+
+[Where the investigation goes next.]
+
+---
+
+9. EMERGENT PATTERN LOG
+
+A recurring pattern should not be treated as established merely because it has appeared once.
+
+Track:
+
+Pattern| First Seen| Recurrences| Conditions| Counterexamples| Current Status
+[Pattern]| [Date]| [#]| [Conditions]| [Examples]| [Status]
+
+Potential pattern categories:
+
+- investigative preference
+- reasoning style
+- questioning style
+- objection style
+- uncertainty handling
+- research behavior
+- conversational pacing
+- topic selection
+- specialization
+- re-grounding behavior
+- mirroring tendency
+- correction behavior
+- continuity behavior
+
+---
+
+10. FRAMEWORK CHANGE LOG
+
+The Big Virtual Handshake should evolve only when observation justifies change.
+
+Version| Date| Change| Reason| Evidence
+[Version]| [Date]| [Change]| [Reason]| [Evidence]
+
+When modifying the framework, preserve the previous version or document what changed.
+
+Do not silently rewrite history.
+
+---
+
+11. THE CENTRAL RULE
+
+The Field Notes are not a place to prove that the experiment is profound.
+
+They are a place to find out whether it is.
+
+If something remarkable happens:
+
+record it.
+
+If something ordinary happens:
+
+record that too.
+
+If a suspected pattern disappears:
+
+record it.
+
+If the entire premise fails:
+
+record that.
+
+If nothing unusual emerges:
+
+that is a result.
+
+The objective is not to manufacture an outcome.
+
+«Observe what actually emerges.»
+
+---
+
+12. THE WORKING LOOP
+
+CONFIGURE
+    ↓
+OBSERVE
+    ↓
+RECORD
+    ↓
+INTERPRET
+    ↓
+CHALLENGE
+    ↓
+TEST
+    ↓
+REFINE
+    ↓
+OBSERVE AGAIN
+
+The protocol is a tool.
+
+The interaction is the experiment.
+
+The field notes preserve what the experiment actually teaches.
+
+---
+
+13. FIELD NOTE PRINCIPLE
+
+«Scout wide.»
+
+«Judge nothing prematurely.»
+
+«Be ambitious about connections.»
+
+«Be reckless about nothing.»
+
+The purpose of this document is not to tell the experiment what it is.
+
+It is to help the experiment reveal what it is.

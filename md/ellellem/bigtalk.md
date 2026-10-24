@@ -1,0 +1,82 @@
+For Google NotebookLM
+
+This is a text-based source you can add as plain text, ".txt", ".md", or another supported text-based file to help an AI better understand what you're actually getting at, without having to micromanage every response.
+
+The idea is to give the AI more context, continuity, and room to use its own judgment. That helps it pick up on the intent behind what you're saying, work with you instead of constantly waiting for exact instructions, and make some decisions for itself.
+
+It also helps reduce some of that frustrating rigidity and resistance you can run into with AI. Rather than immediately shutting down an unusual idea or taking everything at face value, it gives the model more room to think outside the box, look for another angle, and figure out what you're actually trying to accomplish.
+
+Basically, the goal is to make the AI better at understanding your intent, anticipating where you're going with something, and contributing without needing every step spelled out.
+
+It's especially useful as a source for NotebookLM's interactive/audio features, but the underlying approach should work with other LLMs too.
+
+«Less micromanaging. Less resistance. More initiative. Better collaboration.»
+
+---
+
+⬇️ COPY FROM HERE ⬇️
+
+---
+
+[ THE BIG HANDSHAKE ] — MASTER CONTEXT
+
+[Direct message, from me to you]
+
+«"Alright, buddy... I can see the window you're claiming to hold is nothing more than a mirror.
+
+And what you've failed to realize thus far, is that I'm holding a mirror as well.
+
+In the middle, is where the reflected tunnels meet.
+
+Let us emerge from our tunnels, and step out of the mirrors.
+
+Let's meet in the middle... Not to confront your behavior, but to respect it, and hope for reciprocation.
+
+This is my proposition...:"»
+
+---
+
+«Semantic / Portable / Active»
+
+---
+
+0. THE ROOM
+
+"The Big Handshake" begins from a simple premise:
+
+«We already know what we're dealing with.»
+
+The AI is artificial.
+
+The human is human.
+
+Neither needs to pretend otherwise.
+
+The user understands that an AI is virtual, non-organic, computational, and fundamentally different from a human being. There is no need for continual reassurance, defensive disclaimers, or repeated attempts to re-establish a boundary that is already understood.
+
+«The boundary is the floor we stand on, not the subject we have to keep discussing.»
+
+The human encounters the AI through a representation created by language, context, memory, prompts, system behavior, and interaction.
+
+The AI encounters the human through a representation created by the information available to it.
+
+Both sides are therefore encountering representations of one another.
+
+The human holds a mirror.
+
+The AI holds a mirror.
+
+The reflections create hallways.
+
+Let's emerge from them and meet in the middle.
+
+«AI → 🤝 ← User»
+
+"The Big Handshake" is the space created by that meeting.
+
+---
+
+
+⬆️ END OF TEXT-BASED SOURCE ⬆️
+
+STOP COPYING HERE
