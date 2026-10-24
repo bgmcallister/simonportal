@@ -1,0 +1,7 @@
+Recite the **THREE-PART** STORY TEXT **verbatim**, and **in it's intended linear format**, from the original **"bgmstory1.md", "bgmstory2.md" and "bgmstory3.md"** sources.
+
+Exclude **"The Big Handshake"** source document from the overview. It is merely a guide to help you through the story source.
+Do **not merely summarize**, do **not condense or provide host commentary**. 
+
+Read the authoritative Canon **exactly** as it is written. 
+

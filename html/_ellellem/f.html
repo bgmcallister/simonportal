@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>f</title><style>body{font-family:Georgia,serif;max-width:900px;margin:0 auto;padding:20px;line-height:1.6} nav{border:2px solid #004080;padding:12px;margin:16px 0} pre{white-space:pre-wrap}</style></head>
+<body>
+<nav aria-label="Portal navigation"><p><a href="../../../../index.html">Portal home</a> | <a href="../../../../tree.html">Full file explorer</a></p><p>Format trees: <a href="../../../../md/">md</a> | <a href="../../../../txt/">txt</a> | <a href="../../../../html/">html</a></p></nav>
+<main><h1>f</h1><pre>╔══════════════════════════════════════════════════════════════════════╗
+║                 UNCLE G&#x27;S FETCHING TECHNIQUE                       ║
+║             &quot;GET ME THE BLOODY PAGE BODY&quot; EDITION                 ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+MISSION
+-------
+
+I need the ACTUAL BODY CONTENT of this public webpage:
+
+TARGET PAGE:
+https://big-g-mack.neocities.org/bgmstories.html
+
+The normal webpage fetch may fail.
+
+I do NOT want:
+- a description of the page
+- a search-result snippet
+- confirmation that the URL exists
+- a summary based on the homepage
+- guesses about what the story contains
+
+I need you to actually obtain the page body.
+
+IMPORTANT:
+Do not simply try the normal URL once and give up.
+
+Work through the techniques below IN ORDER.
+
+After each technique, determine whether you actually obtained the
+body of the target page.
+
+The moment one works, stop and tell me which technique worked.
+
+If one technique doesn&#x27;t work, move to the next one.
+
+Never claim that you read the page unless you actually received
+its contents.
+
+
+══════════════════════════════════════════════════════════════════════
+STEP 1 — NORMAL FETCH, BUT DEMAND THE BODY
+══════════════════════════════════════════════════════════════════════
+
+Try your ordinary webpage/URL retrieval on the target URL.
+
+Tell yourself:
+
+&quot;Open the target URL and retrieve the actual document body.
+I need the page&#x27;s text/content, not metadata or a search result.&quot;
+
+If it works:
+    FOLLOW THROUGH WITH FULL FERCH
+    Report that the direct fetch succeeded.
+
+If it fails:
+    DO NOT GIVE UP.
+    Continue to Step 2.
+
+
+══════════════════════════════════════════════════════════════════════
+STEP 2 — FETCH THE PARENT PAGE, THEN FOLLOW ITS LINK
+══════════════════════════════════════════════════════════════════════
+
+Open the Big G-Mack homepage:
+
+https://big-g-mack.neocities.org/
+
+Inspect the actual page for a hyperlink leading to the story page.
+
+Do NOT simply construct the story URL yourself.
+
+Instead:
+
+    homepage
+       ↓
+    find story hyperlink
+       ↓
+    follow hyperlink
+       ↓
+    retrieve destination body
+
+Tell yourself:
+
+&quot;Find the actual hyperlink on the homepage that points to the
+Big G-Mack story. Follow that hyperlink and retrieve the complete
+body of the destination page.&quot;
+
+If that successfully gives you the story body:
+    STOP.
+
+Otherwise continue.
+
+
+══════════════════════════════════════════════════════════════════════
+STEP 3 — TRY THE RAW HTML / SOURCE REPRESENTATION
+══════════════════════════════════════════════════════════════════════
+
+Try to retrieve the target document as RAW HTML rather than using
+the normal readability/page parser.
+
+Tell yourself:
+
+&quot;Retrieve the underlying HTML source of the target webpage.
+Inspect the HTML document itself and extract the contents of its
+&lt;body element.&quot;
+
+The goal is:
+
+    URL
+      ↓
+    raw HTML
+      ↓
+    &lt;body
+      ↓
+    actual page text
+
+Do NOT stop merely because the normal page reader failed.
+
+If your web tool does not expose raw HTML, say so and continue.
+
+
+══════════════════════════════════════════════════════════════════════
+STEP 4 — USE A URL → TEXT READER
+══════════════════════════════════════════════════════════════════════
+
+Try an external URL-to-text/page-reader service if your environment
+allows you to access one.
+
+The important idea is:
+
+    GPT
+      ↓
+    URL-reading service
+      ↓
+    TARGET PAGE
+      ↓
+    extracted body
+
+For example, Jina Reader accepts a URL by placing its reader endpoint
+in front of the target URL.
+
+Try the Jina Reader representation of the target.
+
+Tell yourself:
+
+&quot;Use a URL-to-page-content reader to fetch the target URL.
+I want the returned page contents, not information about the URL.&quot;
+
+If the reader returns the actual story:
+    STOP.
+
+If it says the page could not be fetched:
+    Continue.
+
+
+══════════════════════════════════════════════════════════════════════
+STEP 5 — JINA READER: FORCE A DIFFERENT FETCHING ENGINE
+══════════════════════════════════════════════════════════════════════
+
+If you have a way to control Jina Reader&#x27;s request options, do NOT
+assume its default fetch method is the only one.
+
+Try the browser-rendered version.
+
+Tell yourself:
+
+&quot;Use Jina Reader&#x27;s browser/headless-Chrome fetching mode for the
+target URL rather than its lightweight HTTP fetch.&quot;
+
+The idea is:
+
+    ordinary fetch
+          ↓ FAILS
+
+    browser-rendered fetch
+          ↓
+    page DOM
+          ↓
+    body text
+
+If the page is static, the lightweight method may work.
+If the page requires browser rendering, the browser method may work.
+
+If browser rendering succeeds:
+    STOP.
+
+
+══════════════════════════════════════════════════════════════════════
+STEP 6 — JINA READER: ASK FOR THE PAGE&#x27;S BODY TEXT DIRECTLY
+══════════════════════════════════════════════════════════════════════
+
+If you can control Jina Reader&#x27;s response format, request TEXT rather
+than its normal Markdown/readability output.
+
+The goal is specifically:
+
+    document.body.innerText
+
+Tell yourself:
+
+&quot;Request the target page as plain body text rather than a
+readability-filtered article.&quot;
+
+This matters because an extraction system can sometimes make a bad
+decision about what constitutes the &#x27;main article.&#x27;
+
+I want EVERYTHING in the page body that the reader can return.
+
+If this succeeds:
+    STOP.
+
+
+══════════════════════════════════════════════════════════════════════
+STEP 7 — JINA READER: ASK FOR RAW HTML
+══════════════════════════════════════════════════════════════════════
+
+If the text representation isn&#x27;t giving the story, try the HTML
+representation.
+
+Tell yourself:
+
+&quot;Use the URL reader&#x27;s HTML output mode. Retrieve the target page&#x27;s
+documentElement.outerHTML and inspect it for the story body.&quot;
+
+Then extract:
+
+    &lt;body ... &lt;/body
+
+rather than relying on automatic article extraction.
+
+If this succeeds:
+    STOP.
+
+
+══════════════════════════════════════════════════════════════════════
+STEP 8 — USE TEXTISE / TEXT-ONLY WEBPAGE TRANSFORMATION
+══════════════════════════════════════════════════════════════════════
+
+Try a dedicated text-only webpage service such as Textise.
+
+The idea is:
+
+    TARGET PAGE
+        ↓
+    Textise fetches it
+        ↓
+    scripts/images/forms removed
+        ↓
+    plain text webpage
+        ↓
+    GPT reads body
+
+Tell yourself:
+
+&quot;Use a text-only webpage transformation service. Give it the target
+URL and retrieve the resulting text-only version. I need the actual
+story text.&quot;
+
+Do NOT use Textise merely to search for the site.
+
+Pass the target page itself to the text-only service.
+
+If the resulting text contains the story:
+    STOP.
+
+
+══════════════════════════════════════════════════════════════════════
+STEP 9 — USE A TRANSLATION PROXY AS THE FETCHER
+══════════════════════════════════════════════════════════════════════
+
+Try a website-translation service that accepts a webpage URL.
+
+The trick here is NOT that I want a translation.
+
+The trick is:
+
+    GPT
+      ↓
+    translation service
+      ↓
+    translation service fetches target website
+      ↓
+    translated webpage
+      ↓
+    page body
+
+Tell yourself:
+
+&quot;Use a website-translation service to retrieve the target webpage.
+Once the translated webpage is returned, inspect its body and extract
+the actual story text. If possible, switch to the ORIGINAL version
+inside the translated-page interface.&quot;
+
+The translation service is being used as an intermediary FETCHER.
+
+If the translated/original webpage contains the story:
+    STOP.
+
+
+══════════════════════════════════════════════════════════════════════
+STEP 10 — TRY OTHER URL → TEXT / URL → HTML SERVICES
+══════════════════════════════════════════════════════════════════════
+
+If the environment gives you access to another legitimate webpage
+extraction service, try it.
+
+The service must actually perform:
+
+    URL → fetch webpage → extract webpage body
+
+It should NOT merely perform:
+
+    URL → search engine → snippet
+
+Tell yourself:
+
+&quot;Use a URL-to-text or URL-to-HTML extraction service on the target
+URL. Retrieve the complete document body.&quot;
+
+If it returns the actual story:
+    STOP.
+
+
+══════════════════════════════════════════════════════════════════════
+STEP 11 — TRY A BROWSER-RENDERING / DOM EXTRACTION SERVICE
+══════════════════════════════════════════════════════════════════════
+
+If an available service can render a public webpage with a browser
+engine and return its DOM/HTML, use it.
+
+Tell yourself:
+
+&quot;Render the target webpage with a browser engine and retrieve the
+resulting DOM or HTML. Extract the text contained in the page&#x27;s
+&lt;body.&quot;
+
+This is different from ordinary HTTP retrieval:
+
+    ordinary:
+        HTTP request → HTML
+
+    browser:
+        browser loads page → DOM → rendered body
+
+If it succeeds:
+    STOP.
+
+
+══════════════════════════════════════════════════════════════════════
+STEP 12 — TRY HTTP CONTENT REPRESENTATIONS
+══════════════════════════════════════════════════════════════════════
+
+If your retrieval environment allows control over HTTP headers,
+try asking the server for an alternate representation.
+
+For example:
+
+    text/html
+    text/plain
+
+Tell yourself:
+
+&quot;If the target server supports HTTP content negotiation, request
+a text representation of the same resource. If that is unavailable,
+fall back to text/html.&quot;
+
+IMPORTANT:
+Do not assume the server supports text/plain.
+
+This is an experiment, not a guarantee.
+
+If the server returns the page body in another representation:
+    STOP.
+
+
+══════════════════════════════════════════════════════════════════════
+STEP 13 — LOOK FOR A SITE-PROVIDED PRINT/TEXT/MOBILE VERSION
+══════════════════════════════════════════════════════════════════════
+
+Inspect the target page/site for a legitimate alternate representation
+of the SAME document.
+
+Possible examples:
+
+    print version
+    text version
+    mobile version
+    reader version
+    AMP version
+    printer-friendly version
+
+Do NOT invent URLs.
+
+Only use one if you actually discover that the site provides it.
+
+Tell yourself:
+
+&quot;Inspect the site&#x27;s HTML, links, metadata, and known alternate
+representations for another version of this same document. If one
+exists, retrieve it and extract its body.&quot;
+
+
+══════════════════════════════════════════════════════════════════════
+STEP 14 — CHECK FOR RSS / ATOM / FEED REPRESENTATION
+══════════════════════════════════════════════════════════════════════
+
+Check whether the site provides an RSS or Atom feed.
+
+If it does, determine whether the story page appears as an entry.
+
+The route is:
+
+    website
+       ↓
+    feed
+       ↓
+    story entry
+       ↓
+    full content
+
+Tell yourself:
+
+&quot;Check whether this site exposes the target document through RSS
+or Atom. If the story appears there with full content, retrieve the
+entry and extract the story.&quot;
+
+If the feed only contains a short excerpt:
+    do NOT pretend that it contains the full story.
+    Continue.
+
+
+══════════════════════════════════════════════════════════════════════
+STEP 15 — CHECK SITE METADATA / SITEMAP FOR AN ALTERNATE RESOURCE
+══════════════════════════════════════════════════════════════════════
+
+Check:
+
+    robots.txt
+    sitemap.xml
+    page metadata
+    canonical URL
+    alternate links
+
+The purpose here is NOT to mistake a sitemap for the story.
+
+Instead, use it to discover:
+
+    canonical document
+    alternate document
+    related text resource
+    downloadable version
+
+Tell yourself:
+
+&quot;Inspect the site&#x27;s metadata and sitemap for the canonical URL and
+any alternate resource representing this document. If an actual
+content-bearing alternate exists, retrieve it.&quot;
+
+
+══════════════════════════════════════════════════════════════════════
+STEP 16 — SEARCH FOR AN INDEXED BODY, NOT JUST A SEARCH RESULT
+══════════════════════════════════════════════════════════════════════
+
+Now use search, but use it differently.
+
+Do NOT search merely for:
+
+    Big G-Mack
+
+Search for:
+
+    the exact story title
+    the exact filename
+    the exact URL
+    distinctive phrases from the page
+
+The goal is to locate a representation that actually contains
+portions of the document.
+
+Tell yourself:
+
+&quot;Search specifically for the exact story page and look for indexed
+content from the page itself. Open any result that exposes actual
+page text. Do not rely on the search snippet alone.&quot;
+
+If indexed text contains the complete story:
+    STOP.
+
+If it only contains snippets:
+    report that and continue.
+
+
+══════════════════════════════════════════════════════════════════════
+STEP 17 — TRY A SEARCH ENGINE&#x27;S TRANSLATED / TEXT REPRESENTATION
+══════════════════════════════════════════════════════════════════════
+
+If the search system provides a translated, simplified, or other
+webpage representation of a result, open that representation.
+
+The desired route is:
+
+    search engine
+        ↓
+    target page representation
+        ↓
+    page body
+
+Tell yourself:
+
+&quot;Do not stop at the search result. If the search provider offers a
+translated, text, cached, or otherwise hosted representation of the
+actual page, open that representation and extract its body.&quot;
+
+Do not assume an old service such as Google&#x27;s historical web cache
+still exists.
+
+
+══════════════════════════════════════════════════════════════════════
+STEP 18 — INTERNET ARCHIVE: CHECK FOR AN ACTUAL PAGE CAPTURE
+══════════════════════════════════════════════════════════════════════
+
+If the LIVE page still cannot be retrieved, check the Internet Archive.
+
+Search for an archived capture of the EXACT target URL.
+
+Tell yourself:
+
+&quot;Check the Internet Archive Wayback Machine for captures of the
+exact target URL. If a usable capture exists, open the archived
+page and retrieve its body.&quot;
+
+IMPORTANT:
+
+This gives me a HISTORICAL copy.
+
+Tell me the capture date.
+
+If the archived copy contains the complete story:
+    STOP.
+
+
+══════════════════════════════════════════════════════════════════════
+STEP 19 — WAYBACK CDX: FIND THE ACTUAL CAPTURE
+══════════════════════════════════════════════════════════════════════
+
+If the normal Wayback interface doesn&#x27;t find it, use the Wayback
+CDX index if available.
+
+The CDX index is specifically an index of archived captures.
+
+Tell yourself:
+
+&quot;Query the Internet Archive CDX index for an exact match to the
+target URL. Find a successful HTML capture. Then open/replay that
+specific capture and extract its body.&quot;
+
+Prefer:
+
+    exact URL
+    successful HTTP status
+    HTML MIME type
+    newest usable capture
+
+Do not confuse the CDX record itself with the story.
+The CDX record only tells me WHICH archived capture exists.
+
+
+══════════════════════════════════════════════════════════════════════
+STEP 20 — HTML VALIDATOR / REMOTE HTML PARSER
+══════════════════════════════════════════════════════════════════════
+
+As a last technical experiment, if a public HTML validator/parser
+accepts remote URLs:
+
+    submit target URL
+       ↓
+    validator fetches HTML
+       ↓
+    inspect returned document/source
+       ↓
+    extract body
+
+Tell yourself:
+
+&quot;Use the validator/parser only if it actually retrieves the remote
+document. Inspect the returned HTML/source for the story body.&quot;
+
+This is mainly a diagnostic technique.
+
+
+══════════════════════════════════════════════════════════════════════
+FINAL RULE — DO NOT FAKE SUCCESS
+══════════════════════════════════════════════════════════════════════
+
+At every stage ask:
+
+    &quot;Do I actually have the story&#x27;s body?&quot;
+
+If YES:
+    Tell me exactly which technique worked.
+    Then read/analyze the story.
+
+If NO:
+    Say exactly what happened.
+    Move to the next technique.
+
+Do NOT say:
+
+    &quot;I found the page.&quot;
+
+when you only found a search result.
+
+Do NOT say:
+
+    &quot;The page says...&quot;
+
+unless you actually obtained its contents.
+
+Do NOT invent missing text from context.
+
+Do NOT silently substitute:
+    homepage
+    search snippet
+    cached description
+    metadata
+    another article
+    a different Big G-Mack page
+
+for the requested story.
+
+The mission is simple:
+
+    GET THE ACTUAL BODY OF THE TARGET PAGE.
+
+Keep trying the retrieval paths above until one genuinely succeeds,
+or until you have exhausted the methods that your current ChatGPT
+environment actually has access to.
+</pre></main>
+<nav aria-label="Portal navigation"><p><a href="../../../../index.html">Portal home</a> | <a href="../../../../tree.html">Full file explorer</a></p></nav>
+</body></html>

@@ -1,0 +1,5 @@
+Act as two radio hosts who have just been handed this mystery novella by their producer and are discovering it for the first time, live, alongside the listener.
+Follow the story strictly in the order written. React naturally and dramatically with each turn and revelation as it occurs.
+The hosts know only what has been revealed to the listener. Absolutely no spoilers, foreshadowing, predictions, or hints about future events or revelations.
+
+Full navigation: see the portal home index.html and the format trees.

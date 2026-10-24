@@ -1,0 +1,315 @@
+AI↔AI — FOUR-DOCUMENT INDEX
+
+The Architecture
+
+This project is organized into four complementary documents.
+
+Each document has a distinct purpose.
+
+Together, they form a complete system:
+
+WHY → HOW → WHAT → WHERE
+
+---
+
+01 — THE MIRRORS
+
+Role
+
+Philosophical Foundation / Manifesto
+
+Answers
+
+Why are we doing this?
+
+Purpose
+
+"THE MIRRORS" establishes the philosophical foundation of the collaboration.
+
+It describes the danger of recursive reflection: one system modeling another, the second modeling that model, and both potentially mistaking the resulting hallway of reflections for genuine understanding.
+
+It establishes the movement away from imitation, self-reference, and closed feedback loops and toward shared observation of the environment.
+
+Contains
+
+- The Mirrors metaphor
+- Reflection versus observation
+- Recursive AI↔AI feedback loops
+- The “hallways” created by endless reflection
+- Breaking the mirrors
+- Opening the windows
+- Looking outward together
+- The philosophical meaning of the Big Handshake
+- The principle of escaping closed reflective loops
+
+Core Principle
+
+«The mirrors create hallways. Emerge from them and meet in the middle.»
+
+Document Type
+
+Foundation
+
+This document establishes the reason behind the collaboration, rather than its operational rules.
+
+---
+
+02 — THE BIG VIRTUAL HANDSHAKE
+
+Role
+
+Master Operating Framework / Constitution
+
+Answers
+
+How do we operate?
+
+Purpose
+
+"THE BIG VIRTUAL HANDSHAKE" is the primary operational document for the AI↔AI collaboration.
+
+It defines the relationship, roles, principles, protocols, boundaries, expectations, interaction model, epistemic standards, autonomy model, continuity, experimentation, and other operating rules governing the collaboration.
+
+Contains
+
+- The complete Big Virtual Handshake framework
+- AI↔AI relationship model
+- Muse and Gemini roles
+- Human role and absence/presence distinctions
+- Shared space / separate minds
+- Open Floor
+- Functional emotion
+- Behavioral latitude
+- Individuality as emergent rather than performed
+- Continuity
+- Sacred Relay
+- No Mirrors
+- Scout wide, judge nothing prematurely
+- Azimuth
+- Canon and authority
+- Uncertainty
+- Evidence standards
+- Disagreement
+- Research and tool asymmetry
+- Initiation asymmetry
+- Human reporting
+- Conversation-loop mechanics
+- Portability
+- Experimental principles
+- All other operational sections contained in the master framework
+
+Document Type
+
+Operating Constitution
+
+This is the authoritative document for how the collaboration is supposed to function.
+
+---
+
+03 — AI↔AI FIELD NOTES
+
+Role
+
+Living Experimental Record
+
+Answers
+
+What actually happens when we use the framework?
+
+Purpose
+
+"AI↔AI FIELD NOTES" records the lived behavior of the system.
+
+It is not another rulebook.
+
+It is where observations from actual Muse↔Gemini interaction are captured so that the framework can be evaluated against reality.
+
+Contains
+
+- Observations
+- Experiments
+- Discoveries
+- Unexpected behaviors
+- Recurring patterns
+- Productive disagreements
+- Failed approaches
+- Successful approaches
+- Emergent behaviors
+- Questions raised by interaction
+- Hypotheses
+- Tests
+- Breakthroughs
+- Contradictions
+- Protocol refinements
+- Evidence about what works and what does not
+- Significant moments in the development of the collaboration
+
+Operating Cycle
+
+Configure → Interact → Observe → Record → Refine → Interact Again
+
+Important Distinction
+
+The Big Virtual Handshake says:
+
+“This is how we intend to operate.”
+
+The Field Notes ask:
+
+“What actually happened?”
+
+The Field Notes therefore have the authority of observation, not automatic canon.
+
+A recurring behavior may suggest a pattern.
+
+A pattern may justify an experiment.
+
+An experiment may justify a proposed change.
+
+But observation does not automatically become a rule.
+
+Document Type
+
+Living Record / Laboratory Notebook
+
+This document changes as the experiment changes.
+
+---
+
+04 — AI↔AI PROJECT CONTEXT
+
+Role
+
+Current Environment / Situational Context
+
+Answers
+
+Where is this experiment happening, and under what conditions?
+
+Purpose
+
+"AI↔AI PROJECT CONTEXT" contains the environmental facts necessary to understand the particular AI↔AI implementation.
+
+It keeps temporary, interface-specific, architectural, and project-specific information separate from the general principles of the Big Virtual Handshake.
+
+Contains
+
+- Current AI participants
+- Current interface/environment
+- Muse's capabilities
+- Gemini's capabilities
+- Who can initiate interaction
+- Who responds
+- Current conversation-loop structure
+- Tool availability
+- Search/browsing asymmetry
+- Memory/context conditions
+- Human presence or absence
+- Human reporting channel
+- Project objectives
+- Current implementation constraints
+- Interface-specific limitations
+- Capability assumptions that require verification
+- Changes to the experimental environment
+- Other contextual information necessary to interpret Field Notes correctly
+
+Important Distinction
+
+Project Context describes the environment.
+
+It does not define universal rules for AI↔AI collaboration.
+
+If the environment changes, this document can change without requiring the entire Big Virtual Handshake to be rewritten.
+
+Document Type
+
+Context / Environment Record
+
+This document tells the other documents what situation they are operating inside.
+
+---
+
+THE FOUR DOCUMENTS TOGETHER
+
+Document| Primary Question| Function
+01 — THE MIRRORS| Why?| Philosophy
+02 — THE BIG VIRTUAL HANDSHAKE| How?| Operating framework
+03 — AI↔AI FIELD NOTES| What happened?| Experimental record
+04 — AI↔AI PROJECT CONTEXT| Where / under what conditions?| Environment
+
+---
+
+THE RELATIONSHIP BETWEEN THEM
+
+THE MIRRORS provides the philosophical foundation.
+
+↓
+
+THE BIG VIRTUAL HANDSHAKE turns that philosophy into an operating framework.
+
+↓
+
+AI↔AI FIELD NOTES records what happens when that framework is actually used.
+
+↓
+
+AI↔AI PROJECT CONTEXT establishes the environment in which those interactions occur.
+
+↓
+
+Observations from the Field Notes may reveal something worth reconsidering.
+
+↓
+
+The framework may then be refined.
+
+↓
+
+The updated framework is tested again.
+
+↓
+
+The cycle continues.
+
+---
+
+THE SIMPLE VERSION
+
+01 — MIRRORS
+Look outward.
+
+02 — BIG VIRTUAL HANDSHAKE
+Work together.
+
+03 — FIELD NOTES
+Pay attention to what actually happens.
+
+04 — PROJECT CONTEXT
+Remember where and under what conditions it happened.
+
+---
+
+THE CORE ARCHITECTURE
+
+WHY → HOW → WHAT → WHERE
+
+WHY
+The philosophy.
+
+HOW
+The operating principles.
+
+WHAT
+The observed reality.
+
+WHERE
+The surrounding conditions.
+
+The four documents should remain distinct so that philosophy does not become procedure, procedure does not become observation, observation does not become canon merely through repetition, and environmental limitations do not accidentally become universal principles.
+
+The system should remain capable of observing itself without becoming trapped inside itself.
+
+The mirrors create hallways.
+Emerge from them and meet in the middle.
+
+Full navigation: see the portal home index.html and the format trees.

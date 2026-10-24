@@ -1,0 +1,12 @@
+Our mother just passed away, her name was Lauren Roxy Azure, and our grandfather was Benjamin Buford Blue. 
+
+
+
+``` 
+Our mom always talked about a man named Gregory McAllister, who she said was friends with the author of the Forrest Gump story Winston Groom. She said that Gregory gave her an autobiographical novella at one point.
+
+```
+
+Going through her things, as she has just passed away, we have found this novella. Without us having time to read it, will you do an extensive audio overview that covers all the nuance of the story?
+
+Our grandfather was the real Benjamin Buford Blue that the Forrest Gump story the Bubba character was based on 
