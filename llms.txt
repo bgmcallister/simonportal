@@ -34,5 +34,12 @@ _ellellem/_big-g-mack/_bgmstory/_2pt_story/story2: story2.md | story2.txt | stor
 _ellellem/_big-g-mack/_bgmstory/_full_story/bgmstory: bgmstory.md | bgmstory.txt | bgmstory.html
 _ellellem/_big-g-mack/_bgmstory/_full_story/bgmstory: bgmstory.md | bgmstory.txt | bgmstory.html
 _ellellem/_big-g-mack/_bgmstory/_working_draft/_bgmstory_working_draft: _bgmstory_working_draft.md | _bgmstory_working_draft.txt | _bgmstory_working_draft.html
-_ellellem/_big-g-mack/_persona_spec/miles: miles.md | miles.txt | miles.html
 _ellellem/_big-g-mack/_persona_rico/rico: rico.md | rico.txt | rico.html
+
+# Universal navigation
+nav.html: single navigation source, loaded as a frame by every html page, with a plain link fallback for text fetchers
+assets/station-v16.webp: station image at top of home page
+_persona_miles/miles.html: original Miles file, untouched
+_persona_miles/miles.md: original Miles note, untouched
+_user/_biography/bio-anonymous: anonymous bio, redacted, in md/txt/html format trees
+# Note: format trees md/, txt/, html/ hold every document version; nav.html is the complete current list
