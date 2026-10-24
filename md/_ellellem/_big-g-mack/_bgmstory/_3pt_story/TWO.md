@@ -1,0 +1,708 @@
+Rough story outline, made to help audio overview to follow the main story sources:
+
+[BGM BEAT-MAP CONTINUITY FOOTER]
+PROJECT: Big G-Mack Story → NotebookLM Audio Overview Guide
+MODE: Canonical Semantic Beat Map (CSBM)
+
+GOAL: Build a compact, high-resolution semantic map of the story for LLM/NotebookLM comprehension.
+
+CORE RULE: COMPRESS LANGUAGE, NOT STORY. The original Markdown is authoritative canon. The Beat Map is a navigation/interpretation guide, NOT a replacement for the source.
+
+PRESERVE:
+• chronology + events
+• characters, identities + relationships
+• motivations + character development
+• cause → effect
+• important objects + locations
+• reveals + reveal order
+• setup + foreshadowing
+• ambiguity + unresolved threads
+• continuity details
+• narratively meaningful emotional/thematic significance
+• strong, memorable, character-defining quotes
+
+CONDENSE/REMOVE:
+• decorative prose
+• atmospheric padding
+• repetition
+• redundant reactions/dialogue
+• stylistic wording that adds no story information
+
+NEVER:
+• invent facts
+• infer unsupported information
+• resolve intentional ambiguity
+• let later reveals rewrite earlier knowledge
+• discard a detail merely because it seems minor
+• mistake compressed wording for new canon
+
+============================================================
+STORY PART TWO — CANONICAL SEMANTIC BEAT MAP
+============================================================
+
+CHAPTER 7: THE STORM AND THE MIRACLE ANCHOR
+
+TIME / PLACE
+• 1967, implied; Coachella Valley / Palm Springs, California.
+• G-Mack is on his way to a doctor’s appointment.
+• Rare desert storm creates severe rain and poor visibility.
+• Later, G-Mack returns to the old man's house after surviving the crash.
+• Bubba has been killed in Vietnam; the exact date of the death is not given in this chapter.
+
+CHARACTERS
+• Big G-Mack / Greg — narrator; Bubba's best friend and brother-like companion.
+• Bubba / Benjamin Buford Blue — G-Mack's deceased best friend, killed in Vietnam.
+• Miss Loretta — Bubba's mother; sends G-Mack the death notice.
+• Bugsy — G-Mack's friend from Speed 'n Lube; later waits to take G-Mack home from the hospital.
+• Frail old man — stranger who rescues G-Mack from the wreck and owns a truck that turns out to be Emerald Thunder.
+• Bubba's father Bernard Blue is not directly present but is indirectly relevant through Emerald Thunder's eventual history.
+
+CORE EVENTS
+• G-Mack grabs the mail while leaving for a doctor's appointment.
+• He opens a letter from Miss Loretta and learns that Bubba has been killed in Vietnam.
+• Bubba is explicitly identified as G-Mack's best friend and brother in all but blood.
+• G-Mack experiences shock, grief, disbelief and panic.
+• While driving the Biscayne during the storm, memories of Bubba overwhelm him.
+• The Biscayne loses traction, breaks through a guardrail, launches off Highway 111, flips multiple times and lands on its roof.
+• G-Mack loses consciousness.
+• He awakens injured, bleeding from the forehead, with the smell of gasoline around him.
+• Through the broken windshield he sees a wooded yard and a small white bungalow approximately 30 yards away.
+• A frail old man rescues G-Mack from the wreckage, carries him to his truck and drives him to the hospital.
+• Bugsy waits to take G-Mack home afterward.
+• G-Mack insists on stopping at the old man's house to thank him.
+• The old man's truck is green and resembles Emerald Thunder.
+• It has a red-haired pinup-girl air freshener hanging from the rearview mirror.
+• The old man says he obtained the truck the previous year from a man in Indio.
+• He describes it as barely running, with a worn interior, ripped seat and marred door panel.
+• He says a kid carved a name into the door.
+• G-Mack asks whether the name is "Bubba."
+• It is.
+• G-Mack discovers Bubba's name etched into the passenger door and realizes the truck is Emerald Thunder.
+• The truck otherwise matches his memories.
+• The old man offers it for $500.
+• G-Mack pays cash and takes possession of Emerald Thunder.
+
+CHARACTER / RELATIONSHIP MOVEMENT
+• Bubba's death transforms G-Mack's relationship to his memories: grief becomes immediate and overwhelming rather than historical.
+• G-Mack's grief contributes directly to the crash.
+• The old man's rescue establishes an unexpected act of kindness during G-Mack's darkest moment.
+• Emerald Thunder returns to G-Mack immediately after Bubba's death.
+• The truck shifts from being a reminder of loss/tragedy into an "anchor" connecting G-Mack to Bubba and something enduring.
+
+CAUSE → EFFECT
+• Miss Loretta's letter → G-Mack learns Bubba has died.
+• News of Bubba's death + emotional shock + storm → distracted/emotionally overwhelmed driving.
+• Loss of vehicle control → Biscayne crashes.
+• Crash → old man rescues G-Mack.
+• Old man's truck contains Bubba's carved name → G-Mack recognizes Emerald Thunder.
+• G-Mack buys Emerald Thunder → the truck returns to his life at the precise moment he loses Bubba.
+
+IMPORTANT CONTINUITY
+• Bubba is Benjamin Buford Blue.
+• Bubba was G-Mack's best friend and brother in all but blood.
+• Bubba served in Vietnam and dies there.
+• Emerald Thunder is the 1960 Chevy K-10 associated with G-Mack and Bubba.
+• Bubba previously carved his name into Emerald Thunder's passenger door.
+• Emerald Thunder is green.
+• Emerald Thunder has a significant emotional history with G-Mack and Bubba.
+• G-Mack loses Dad on the day he originally got Emerald Thunder; this establishes an earlier association between the truck and loss.
+• The truck now returns on the day G-Mack learns Bubba has died, creating a parallel between loss and return.
+• The old man acquired the truck from someone in Indio approximately one year earlier.
+• Purchase price: $500.
+• The chapter establishes Emerald Thunder as a symbolic "anchor," not merely transportation.
+
+REVEALS
+• Bubba has died in Vietnam.
+• The truck owned by the old man is Emerald Thunder.
+• Bubba's name remained carved into Emerald Thunder's passenger door.
+• Emerald Thunder returns to G-Mack immediately after Bubba's death.
+
+SETUP / FORESHADOWING
+• The mysterious return of Emerald Thunder suggests the truck's history is not finished.
+• The matching green truck and carved name create the possibility of further connections in Bubba's past.
+• The truck's return at this exact moment establishes it as a vehicle through which buried history can resurface.
+
+SIGNIFICANT OBJECTS / LOCATIONS
+• Letter from Miss Loretta.
+• Biscayne.
+• Highway 111 / crash site.
+• Old man's white bungalow.
+• Old man's green truck.
+• Emerald Thunder.
+• Passenger-door carving of "Bubba."
+• $500 cash purchase.
+
+EMOTIONAL / THEMATIC MEANING
+• Sudden loss can destabilize every part of a person's world.
+• Grief and memory are physically overwhelming, not merely intellectual.
+• An object associated with painful memories can become an anchor for survival.
+• Emerald Thunder's return gives G-Mack something tangible from his lost friendship.
+• The chapter pairs tragedy with an unexplained act of restoration/miracle.
+
+MEMORABLE QUOTES
+• G-Mack: "Bubba…my best friend…my brother in all but blood…killed in Vietnam."
+  — Establishes the depth of the G-Mack/Bubba bond and the emotional impact of the death.
+• G-Mack, after recognizing the carving: "By chance… does it say... 'Bubba'?"
+  — Immediate recognition that the old man's truck may be Emerald Thunder.
+• Narration: "Emerald Thunder was back."
+  — Central emotional resolution of the chapter; the truck returns as an anchor after Bubba's death.
+
+DO NOT MISINTERPRET
+• The story does not state that the old man intentionally rescued G-Mack because of Emerald Thunder or Bubba.
+• The old man's identity and connection to the truck before purchasing it are not explained here.
+• The exact circumstances of Bubba's death are not provided.
+• The truck's return is presented as miraculous/symbolically significant, but the narrative does not establish a supernatural explanation.
+• Do not treat the old man's truck as merely similar to Emerald Thunder; G-Mack verifies that it is Emerald Thunder.
+
+------------------------------------------------------------
+CHAPTER 8: THE COMPASS AND THE BLOODLINE
+------------------------------------------------------------
+
+TIME / PLACE
+• 1991, spring.
+• Coachella Valley / Palm Springs, California.
+• Operation Desert Storm troops are returning home.
+• G-Mack is approximately 40 years old.
+• He has recently had a doctor's checkup and has been advised to take his health more seriously.
+• Emerald Thunder remains under a tarp outside/in the garage.
+• Later, G-Mack travels from the Coachella Valley to Oakland, Northern California.
+• Oakland location: Montgomery Street.
+• Lauren's record shop is directly across from Susie's home.
+
+CHARACTERS
+• Big G-Mack / Greg.
+• Bubba / Benjamin Buford Blue — deceased; remains central through memory and bloodline.
+• Bugsy — G-Mack's longtime friend from Speed 'n Lube in Indio.
+• Susie Anderson — girl from 1966 who gave Benny the nickname "Bubba."
+• Lauren Azure — Susie's 24-year-old daughter, later revealed to be Bubba's daughter.
+• Bernard Blue — Bubba's father; Lauren's grandfather; later becomes central to Emerald Thunder's history.
+• Jerry Greene — previously associated with Emerald Thunder; later becomes the person G-Mack believes can explain its history.
+
+CORE EVENTS
+• G-Mack watches Desert Storm troops return home.
+• The returning soldiers and their families remind him of Vietnam and Bubba.
+• He observes that some veterans return physically home but carry invisible burdens; Bubba never returned.
+• G-Mack reflects on aging and slowing down.
+• Bugsy calls G-Mack at his regular afternoon time.
+• Bugsy explains that a woman came into his shop after blowing a tire.
+• The woman is Susie Anderson.
+• G-Mack immediately remembers Susie from July 4, 1966, the park fountain and the origin of Bubba's nickname.
+• Bugsy reveals Susie has a daughter.
+• The daughter was born in 1967, shortly after Bubba shipped out to Vietnam.
+• Bugsy says the daughter is 24 years old.
+• Bugsy saw a photograph and believes the daughter strongly resembles Bubba.
+• Her name is Lauren Azure.
+• G-Mack realizes Bubba apparently has a living daughter.
+• He decides he must find Lauren.
+• Bugsy initially says he does not know Lauren's location.
+• Bugsy calls back after realizing Susie paid with a check containing her address.
+• Susie's address: 2450 Montgomery Street, Oakland.
+• Bugsy also reveals Lauren operates a record store directly across the street from Susie's house.
+• G-Mack drives Emerald Thunder from the Coachella Valley to Oakland.
+• He arrives at Azure Sounds.
+• G-Mack hears Lauren laugh and immediately recognizes Bubba's laugh.
+• He notices multiple physical and behavioral similarities to Bubba: jaw, eyes, smile, head tilt, listening style and cadence/drawl.
+• Lauren works in the record shop.
+• G-Mack initially hides his identity as "Big G" and introduces himself as Greg.
+• He arranges to meet Lauren at a nearby coffee shop after she closes.
+• G-Mack leaves Azure Sounds knowing he has found the person he came to meet.
+
+CHARACTER / RELATIONSHIP MOVEMENT
+• G-Mack's grief over Bubba evolves into a mission to find Bubba's daughter.
+• Bugsy becomes an active bridge between G-Mack's past and Bubba's surviving bloodline.
+• Susie re-enters G-Mack's life after 25 years, reconnecting the 1966 fountain encounter to the present.
+• Lauren is established as a living continuation of Bubba.
+• G-Mack moves from mourning Bubba's absence toward seeking a relationship with his daughter.
+• G-Mack deliberately introduces himself as "Greg" rather than "Big G," suggesting emotional caution about how he presents himself to Lauren.
+
+CAUSE → EFFECT
+• Desert Storm homecomings → G-Mack reflects on Bubba's failure to return from Vietnam.
+• Bugsy encounters Susie → the forgotten 1966 connection resurfaces.
+• Susie reveals she has a daughter born in 1967 → possibility that Bubba fathered a child.
+• Lauren's appearance strongly resembles Bubba → G-Mack becomes convinced he must meet her.
+• Bugsy obtains Susie's address from her check → G-Mack can locate Lauren.
+• Lauren's record shop is across from Susie's house → G-Mack can directly find Lauren.
+• G-Mack meets Lauren at Azure Sounds → the Bubba bloodline becomes physically present to him.
+
+IMPORTANT CONTINUITY
+• Susie Anderson is the girl from July 4, 1966 who accidentally/memorably gave Benny the nickname Bubba.
+• Bubba was still alive when he left for Vietnam.
+• Susie moved to Oakland after her father took a factory job there.
+• Susie has remained in Oakland since.
+• Lauren was born in 1967, shortly after Bubba shipped out to Vietnam.
+• Lauren is 24 in 1991.
+• Lauren's full name is Lauren Azure.
+• Lauren's surname "Azure" is symbolically associated with the color blue, connecting to "Blue" in Benjamin Buford Blue.
+• Bugsy has known G-Mack for many years and still works at Speed 'n Lube in Indio.
+• Bugsy calls G-Mack approximately once a week for mechanical advice and conversation.
+• Azure Sounds is Lauren's record shop.
+• Susie's home is at 2450 Montgomery Street, Oakland.
+• Azure Sounds is directly across the street from Susie's house.
+• G-Mack travels to Oakland in Emerald Thunder.
+
+REVEALS
+• Susie Anderson is alive and living in Oakland.
+• Susie has a daughter named Lauren Azure.
+• Lauren was born in 1967 shortly after Bubba shipped out to Vietnam.
+• Bugsy sees a strong physical resemblance between Lauren and Bubba.
+• G-Mack personally confirms numerous Bubba-like traits when he meets Lauren.
+• Bubba apparently fathered a daughter he never knew existed.
+• Lauren does not yet know G-Mack's connection to her father when he first meets her.
+
+SETUP / FORESHADOWING
+• Desert Storm veterans returning to their families foreshadow G-Mack's coming encounter with the daughter Bubba never got to meet.
+• Lauren's strong resemblance to Bubba establishes her as his living continuation.
+• G-Mack hearing Bubba's laugh before learning Lauren's identity creates a powerful recognition motif.
+• The decision to use "Greg" rather than "Big G" creates a temporary identity boundary that may matter as the relationship develops.
+• Emerald Thunder's presence in Oakland connects Lauren directly to Bubba's history before she knows the full story.
+• The record shop and Susie's address provide the physical convergence point for multiple generations of the story.
+
+SIGNIFICANT OBJECTS / LOCATIONS
+• Emerald Thunder.
+• G-Mack's garage.
+• Bugsy's Speed 'n Lube shop in Indio.
+• Susie's check containing her address.
+• 2450 Montgomery Street, Oakland.
+• Azure Sounds record shop.
+• Vinyl records.
+• Compact discs.
+• Emerald Thunder's distinctive history.
+
+EMOTIONAL / THEMATIC MEANING
+• War separates people across generations, but its emotional consequences persist.
+• Returning soldiers and grieving families emphasize what Bubba lost by never coming home.
+• Bubba's absence is contrasted with his surviving bloodline.
+• The story moves from death toward continuity.
+• A nickname created by a teenage encounter ultimately connects three generations.
+• G-Mack's search becomes less about recovering the past and more about carrying it forward.
+
+MEMORABLE QUOTES
+• G-Mack: "War always changes its clothes, but it never changes its appetite."
+  — Compresses the story's comparison between Vietnam and Desert Storm.
+• G-Mack: "That's the girl who gave him the name. The one from the fountain."
+  — Identifies Susie as the origin of Bubba's lifelong nickname.
+• G-Mack: "I want to find her. I need to talk to Lauren myself."
+  — Marks the transition from grief into active purpose.
+• G-Mack: "The name's Greg, kiddo. Just call me Greg."
+  — Shows his hesitation to immediately bring the "Big G" identity into this emotionally charged meeting.
+• G-Mack, upon hearing Lauren's laugh:
+  — He recognizes it as Bubba's laugh, establishing an immediate emotional connection before the formal revelation.
+
+DO NOT MISINTERPRET
+• The story strongly establishes Lauren as Bubba's daughter, but at the beginning of G-Mack's search this is still information obtained through Susie/Bugsy and resemblance; G-Mack has not yet heard the story directly from Lauren.
+• Susie and Bubba's relationship is not described as a formal marriage or long-term relationship.
+• The narrative states Lauren was born shortly after Bubba shipped out; do not invent an exact conception date or circumstances.
+• "Azure" is explicitly connected by the narrator to the color blue, but do not invent a specific naming motive unless the canon later establishes one.
+• G-Mack's recognition of Lauren is based on physical and behavioral resemblance; do not convert that into unsupported genetic testing or other proof.
+• G-Mack deliberately withholds his "Big G" identity at first; this is significant character behavior.
+
+------------------------------------------------------------
+CHAPTER 9: THE NAME SHE NEVER KNEW
+------------------------------------------------------------
+
+TIME / PLACE
+• 1991.
+• Oakland, California — coffee shop near Azure Sounds.
+• Later, G-Mack returns to Palm Springs.
+• Approximately one week later, G-Mack receives a letter from Roxy.
+• The following morning he calls her.
+• Roxy subsequently plans to visit Palm Springs.
+
+CHARACTERS
+• Big G-Mack / Greg.
+• Lauren Azure / Roxy — Bubba's daughter; initially encountered as Lauren.
+• Susie Anderson — Roxy's mother; Bubba's former teenage love/connection.
+• Bubba / Benjamin Buford Blue — Roxy's biological father; deceased.
+• Bugsy — indirect catalyst for the reunion.
+
+CORE EVENTS
+• G-Mack meets Lauren at a coffee shop.
+• He explains that he came because he believes some things belong to people even when it takes years for them to find their way home.
+• He identifies her mother as Susie Anderson.
+• He reveals that Susie knew Benjamin Buford Blue.
+• He tells Lauren that Benjamin was known as Bubba.
+• He explains that Susie was the person who originally gave Bubba that nickname.
+• G-Mack tells the story of the 1966 fountain encounter.
+• Lauren learns that her mother knew Bubba and that her father was Benjamin Buford Blue.
+• Lauren reveals she has always wondered who her father was.
+• She had wondered whether he left or did not want her.
+• G-Mack tells her the truth: Bubba never knew he had a daughter.
+• G-Mack gives Lauren an old photograph of himself and Bubba as teenagers.
+• Lauren recognizes Bubba's physical resemblance to herself.
+• G-Mack tells her about the real Bubba: humorous, generous, respectful, devoted to others and deeply in love with her mother.
+• He tells Lauren Bubba would have loved her.
+• G-Mack explains that Lauren lost a father she never met while he lost a brother he never got to say goodbye to.
+• He offers to become family and tells her she can call him Uncle G.
+• Lauren accepts.
+• Lauren asks G-Mack to stop treating her like a stranger.
+• She gives him her preferred name: Roxy.
+• G-Mack accepts "Roxy."
+• The relationship changes from stranger/informant to family.
+• About a week later, Roxy sends G-Mack a letter.
+• She says she has been thinking about Bubba and wants to hear the small, personal stories that made him who he was.
+• She decides to take time away from Azure Sounds and visit Palm Springs for approximately a week.
+• G-Mack calls her the next morning.
+• He insists she stay at his home rather than a hotel.
+• He tells her there is a spare room.
+• He jokingly recruits her to hold a flashlight in the garage.
+• He tells her she should meet Emerald Thunder.
+• Roxy is excited to meet the truck her father knew.
+• G-Mack frames Emerald Thunder as having waited a long time to meet her.
+
+CHARACTER / RELATIONSHIP MOVEMENT
+• Lauren learns the identity of her biological father.
+• G-Mack becomes the first person who can personally tell Roxy about Bubba.
+• Roxy's lifelong uncertainty about her father begins to resolve.
+• G-Mack's relationship with Bubba's memory changes: he can now share Bubba rather than merely mourn him.
+• G-Mack and Roxy become chosen family.
+• Roxy's renaming from Lauren to Roxy becomes a marker of the new relationship.
+• G-Mack moves from "Greg" back into the familial identity of "Uncle G."
+• Roxy actively seeks more information about Bubba, demonstrating that she wants connection to her father's life rather than merely his identity.
+
+CAUSE → EFFECT
+• G-Mack identifies Susie/Bubba connection → Lauren learns the identity of her father.
+• Photograph → Lauren visually recognizes her resemblance to Bubba.
+• G-Mack's stories → Roxy begins forming a personal understanding of her father.
+• G-Mack offers family relationship → Roxy accepts him as Uncle G.
+• Roxy wants more stories → she plans a visit to Palm Springs.
+• Roxy's visit → she will encounter Emerald Thunder and additional pieces of Bubba's history.
+
+IMPORTANT CONTINUITY
+• Lauren Azure is Bubba's daughter.
+• Lauren's chosen/familiar name becomes Roxy.
+• Roxy's mother is Susie Anderson.
+• Bubba is Benjamin Buford Blue.
+• Susie gave Bubba the nickname "Bubba" in 1966.
+• Bubba loved Susie.
+• Bubba never knew he had a daughter.
+• Bubba never returned from Vietnam.
+• Roxy has spent her life without knowing her father's identity.
+• G-Mack and Bubba were best friends/brothers in all but blood.
+• G-Mack now becomes Uncle G to Roxy.
+• Roxy intends to visit Palm Springs and stay with G-Mack.
+• Emerald Thunder remains central to the relationship between Bubba, G-Mack and now Roxy.
+
+REVEALS
+• Lauren confirms she never knew who her father was.
+• G-Mack reveals her father was Benjamin Buford "Bubba" Blue.
+• Bubba loved Susie and would have loved Roxy.
+• Bubba never knew Roxy existed.
+• Lauren chooses/uses the name Roxy.
+• Roxy accepts G-Mack as family.
+• Roxy plans to visit Palm Springs to learn more about Bubba.
+
+SETUP / FORESHADOWING
+• Roxy specifically asks for the small stories nobody writes down, setting up future revelations through G-Mack's memories.
+• Her upcoming stay at G-Mack's home creates sustained access to Bubba's history.
+• Emerald Thunder is explicitly introduced as something Roxy needs to meet.
+• The narrator says Emerald Thunder has been waiting a long time to meet her, emphasizing the truck's continuing narrative role.
+• Roxy's curiosity about whether there are things she does not know about Bubba will lead directly into the discoveries in Chapter 10.
+
+SIGNIFICANT OBJECTS / LOCATIONS
+• Coffee shop.
+• Old photograph of teenage G-Mack and Bubba.
+• Letter from Roxy.
+• G-Mack's home and spare bedroom.
+• Garage.
+• Emerald Thunder.
+
+EMOTIONAL / THEMATIC MEANING
+• Identity can be restored through stories as well as names.
+• A child can inherit a relationship with a parent through the people who remember them.
+• G-Mack's grief becomes generative: instead of only losing Bubba, he gains Roxy.
+• "Family" becomes both biological and chosen.
+• Roxy does not receive her father back, but she receives access to his memory, character and community.
+• The chapter reframes loss: life may return something related to what was lost, though never in exactly the same form.
+
+MEMORABLE QUOTES
+• G-Mack: "I think it's time you meet him."
+  — Introduces Bubba to Roxy through memory and photograph rather than physical presence.
+• G-Mack: "No, kiddo. That's family."
+  — Defines the emotional meaning of Roxy's resemblance to Bubba.
+• G-Mack: "He would've loved you."
+  — Provides Roxy with the paternal acceptance she never received directly from Bubba.
+• G-Mack: "You lost a father you never got to meet. I lost a brother I never got to say goodbye to."
+  — Defines their shared grief from opposite sides of Bubba's absence.
+• G-Mack: "You can just call me Uncle G."
+  — Establishes their new family relationship.
+• Roxy: "Uncle G."
+  — Marks the emotional acceptance of G-Mack as family.
+• Roxy: "Roxy."
+  — Establishes the name she wants G-Mack to use, marking the transition from stranger to family.
+
+DO NOT MISINTERPRET
+• Roxy's identity as Bubba's daughter is treated as established within the story; do not imply that G-Mack doubts it after meeting her.
+• G-Mack does not claim Bubba intentionally abandoned Roxy; he explicitly explains that Bubba never knew she existed.
+• Roxy does not magically recover memories of Bubba; she builds knowledge from G-Mack's stories and photograph.
+• Roxy's choice of "Roxy" is not presented as rejection of Lauren; it is the name she asks G-Mack to use.
+• G-Mack's offer of family is emotional/chosen-family language in addition to their biological connection through Bubba.
+
+------------------------------------------------------------
+CHAPTER 10: THE DAUGHTER OF BUBBA BLUE
+------------------------------------------------------------
+
+TIME / PLACE
+• 1991, a few weeks after G-Mack and Roxy's initial meeting.
+• Palm Springs / Coachella Valley, California.
+• G-Mack's driveway and garage.
+• Various familiar Palm Springs locations.
+• Lake Cahuilla.
+• Old diner where G-Mack and Bubba's mothers once worked.
+• Roads G-Mack and Bubba used to cruise.
+• An abandoned/aging automobile dealership.
+• The dealership where Emerald Thunder was originally sold in 1960.
+
+CHARACTERS
+• Big G-Mack / Greg / Uncle G.
+• Roxy / Lauren Azure — Bubba's daughter.
+• Bubba / Benjamin Buford Blue — deceased.
+• Roy Greene — original purchaser of Emerald Thunder according to the dealership records discovered in Chapter 10.
+• Jerry Greene — Roy's son; previously bought Emerald Thunder from G-Mack.
+• Old dealership caretaker/worker — elderly man who recognizes Emerald Thunder and provides access to historical records.
+• Bernard Blue — revealed through the original bill of sale as the truck's original buyer.
+• Susie Anderson — indirectly relevant through Roxy/Bubba's family history.
+
+CORE EVENTS
+• Roxy arrives in Palm Springs a few weeks after their initial meeting.
+• G-Mack waits beside Emerald Thunder.
+• Roxy sees Emerald Thunder and immediately recognizes its significance.
+• G-Mack shows her Bubba's carved name in the door.
+• He tells her about Bubba carving his name into the truck in summer 1967 before leaving for Vietnam.
+• G-Mack explains that he initially viewed the carving as damage.
+• Bubba explained it was a promise and a piece of himself left behind.
+• Roxy listens closely and demonstrates Bubba-like behavior.
+• G-Mack recognizes not only Bubba's physical resemblance in Roxy but behavioral traits as well.
+• G-Mack takes Roxy around Palm Springs, showing her meaningful locations rather than tourist attractions.
+• Roxy asks detailed questions about Bubba's personality, anger, laughter and fear.
+• G-Mack acknowledges that Bubba was afraid but went to war anyway.
+• Roxy asks whether there are still things they do not know about Bubba.
+• G-Mack says Bubba was full of surprises.
+• G-Mack later takes Roxy for a drive in Emerald Thunder with no specific destination.
+• They arrive at an old dealership.
+• G-Mack recognizes it as the place where Emerald Thunder originated.
+• G-Mack tells Roxy that in 1960 Roy Greene drove the truck out of the dealership brand new.
+• Roxy recognizes Roy as Jerry Greene's father.
+• G-Mack confirms Jerry is the same man who bought Emerald Thunder from him.
+• An elderly man near the dealership recognizes the truck.
+• He tells G-Mack he knew Emerald Thunder before she was green.
+• The old man explains that the dealership has been closed for years and that old records, photographs, advertisements and paperwork remain in the back office.
+• G-Mack and Roxy follow him inside.
+• The old man retrieves a folder containing a copy of the original bill of sale.
+• The bill of sale identifies the truck, its year, the dealership and the original buyer.
+• The original buyer is Bernard Blue.
+• Roxy recognizes Bernard as her grandfather.
+• This reveals that Bernard Blue, Bubba's father and Roxy's grandfather, was the original buyer of Emerald Thunder.
+• G-Mack realizes the accepted story that Roy Greene was the original owner is incomplete/incorrect.
+• G-Mack concludes that Jerry Greene may be the person who can explain what happened between Bernard Blue's purchase and Jerry's later ownership.
+• G-Mack identifies Jerry as the next person he needs to contact.
+
+CHARACTER / RELATIONSHIP MOVEMENT
+• Roxy's relationship with G-Mack deepens through shared stories and physical places.
+• Roxy develops a direct emotional connection to Emerald Thunder.
+• G-Mack begins seeing Bubba not merely in Roxy's face but in her mannerisms.
+• Roxy moves from learning who Bubba was to actively investigating his history.
+• G-Mack's understanding of Emerald Thunder's history is destabilized.
+• Roy Greene's role changes from presumed original owner to a person whose relationship to the truck requires clarification.
+• Jerry Greene becomes newly important because he may possess missing information about the truck's ownership history.
+• Bernard Blue is elevated from Bubba's father to a central figure in Emerald Thunder's history.
+
+CAUSE → EFFECT
+• Roxy visits Palm Springs → she meets Emerald Thunder and receives deeper access to Bubba's memories.
+• Roxy asks detailed questions → G-Mack focuses on Bubba's human character rather than only his legend.
+• Roxy asks whether more remains unknown → G-Mack acknowledges Bubba's unexplained mysteries.
+• G-Mack takes Roxy driving → they encounter the old dealership.
+• Dealership caretaker recognizes Emerald Thunder → access to forgotten records becomes possible.
+• Original bill of sale → reveals Bernard Blue as the original buyer.
+• Bernard Blue's appearance in the records conflicts with the story G-Mack believed about Roy Greene being the original owner.
+• Jerry Greene is connected to both Roy and later ownership of Emerald Thunder → G-Mack identifies Jerry as the likely source for the missing history.
+
+IMPORTANT CONTINUITY
+• Emerald Thunder is a 1960 Chevy K-10.
+• Bubba carved his name into Emerald Thunder's door in summer 1967 before leaving for Vietnam.
+• The carving was intended by Bubba as a promise/piece of himself, not merely vandalism.
+• Roxy is Bubba's daughter.
+• Roxy strongly resembles Bubba physically and behaviorally.
+• Roxy's grandfather is Bernard Blue.
+• Bernard Blue is Bubba's father.
+• The original bill of sale identifies Bernard Blue as Emerald Thunder's original buyer.
+• Roy Greene had previously been understood to be the original owner.
+• Roy Greene is Jerry Greene's father.
+• Jerry Greene is the man who later bought Emerald Thunder from G-Mack.
+• The exact chain of ownership between Bernard Blue and Roy Greene is unresolved at the end of Part Two.
+• The reason the existing history credited Roy Greene as original owner is unresolved.
+• The elderly dealership man has access to historical records.
+• G-Mack and Roxy have discovered documentary evidence contradicting or complicating their previous understanding.
+• Jerry Greene is the next intended source of answers.
+
+REVEALS
+• Roxy sees and learns the meaning of Bubba's carving in Emerald Thunder.
+• G-Mack recognizes that Roxy has Bubba-like mannerisms in addition to his physical traits.
+• Emerald Thunder originated at the old dealership.
+• The dealership's records survived despite years of closure.
+• The original bill of sale names Bernard Blue as Emerald Thunder's original buyer.
+• Bernard Blue is Roxy's grandfather and Bubba's father.
+• The previously understood ownership story involving Roy Greene is incomplete.
+• Jerry Greene may have information needed to explain the discrepancy.
+
+SETUP / FORESHADOWING
+• Roxy's question about whether there are still unknown things about Bubba directly foreshadows the discovery of the dealership records.
+• G-Mack's statement that Bubba was "full of surprises" prepares for additional hidden history.
+• The old man's statement, "I knew her before she was green," signals that Emerald Thunder's history predates G-Mack's knowledge.
+• The original bill of sale introduces Bernard Blue into the truck's history and creates a major unresolved ownership mystery.
+• Jerry Greene is explicitly positioned as the next investigative destination.
+• The relationship between Bernard Blue, Roy Greene and Jerry Greene remains deliberately incomplete at the end of Part Two.
+
+SIGNIFICANT OBJECTS / LOCATIONS
+• Emerald Thunder.
+• Bubba's carved name on the passenger door.
+• G-Mack's garage.
+• Lake Cahuilla.
+• Old diner where their mothers worked.
+• Roads associated with G-Mack and Bubba.
+• Abandoned dealership.
+• Original bill of sale.
+• Dealership records.
+• Old photographs.
+• Old advertisements.
+• Back office.
+• Jerry Greene's connection to Emerald Thunder.
+
+EMOTIONAL / THEMATIC MEANING
+• Roxy becomes a living continuation of Bubba rather than merely a symbol of his absence.
+• Emerald Thunder shifts again: from memory of G-Mack and Bubba to a bridge connecting Roxy to her father and grandfather.
+• Objects can preserve histories that people have forgotten.
+• Family history can survive in unexpected physical records.
+• Personal memory and documentary evidence can conflict.
+• G-Mack's search evolves from finding Bubba's daughter into uncovering the larger family history surrounding Bubba.
+• The story increasingly frames Emerald Thunder as a vessel carrying multiple generations of memory.
+• The past is not finished simply because the people involved are gone.
+
+MEMORABLE QUOTES
+• G-Mack: "For the first time in years, I wasn't looking at that truck and seeing what I lost. I was looking at what survived."
+  — Defines the transformation of Emerald Thunder from symbol of loss into symbol of survival.
+• G-Mack: "He was scared and he went anyway."
+  — Defines Bubba's courage as action despite fear rather than absence of fear.
+• G-Mack: "With Bubba? That man was full of surprises."
+  — Foreshadows additional hidden history.
+• Old man: "I knew her before she was green."
+  — First signal that Emerald Thunder's known history is incomplete.
+• Roxy: "My grandfather."
+  — Marks the revelation that Bernard Blue was the original buyer.
+• G-Mack: "There's one person I need to talk to."
+  — Establishes Jerry Greene as the next investigative target.
+
+DO NOT MISINTERPRET
+• The dealership records do not establish the entire chain of ownership; they only establish Bernard Blue as the original buyer on the discovered bill of sale.
+• Do not erase Roy Greene from the story. Roy is still explicitly connected to Emerald Thunder and is identified as Jerry's father.
+• Do not assume Roy stole, purchased, inherited or otherwise acquired Emerald Thunder from Bernard; the mechanism is unresolved.
+• Jerry's knowledge is not yet revealed.
+• The elderly man's statement that he knew the truck "before she was green" does not by itself establish exactly when or why the truck's color changed.
+• Roxy's resemblance and mannerisms are narrative evidence of her connection to Bubba but should not be expanded into unsupported factual claims.
+• The old dealership's surviving records are incomplete; only the discovered materials are established.
+• Do not resolve why Bernard Blue's original ownership was forgotten or contradicted.
+
+============================================================
+CONTINUITY LEDGER — END OF PART TWO
+============================================================
+
+CHARACTERS
+• Big G-Mack / Greg — narrator; 41 years old in 1991; Bubba's best friend/brother-like companion; now "Uncle G" to Roxy.
+• Bubba / Benjamin Buford Blue — G-Mack's best friend; died in Vietnam; Susie's former love; Roxy's biological father; Bernard Blue's son.
+• Susie Anderson — Bubba's teenage love/connection from 1966; gave Benny the nickname "Bubba"; Roxy's mother; moved to Oakland and remained there.
+• Lauren Azure / Roxy — born 1967; Bubba's daughter; Susie's daughter; Bernard Blue's granddaughter; owns/runs Azure Sounds; now considers G-Mack family.
+• Bugsy — G-Mack's longtime friend; works at Speed 'n Lube in Indio; reconnects G-Mack with Susie and helps locate Roxy.
+• Bernard Blue — Bubba's father; Roxy's grandfather; established by original bill of sale as original buyer of Emerald Thunder.
+• Roy Greene — Jerry Greene's father; previously believed by G-Mack/Roxy to be Emerald Thunder's original owner; exact relationship to Bernard's ownership unresolved.
+• Jerry Greene — Roy's son; previously bought Emerald Thunder from G-Mack; identified as the next person who may explain its history.
+• Frail old man / dealership old man — separate elderly figures unless canon later establishes otherwise. The first rescues G-Mack and owns Emerald Thunder temporarily; the later elderly man recognizes Emerald Thunder at the dealership. DO NOT merge them without explicit canon confirmation.
+
+RELATIONSHIPS
+• G-Mack ↔ Bubba: best friends; brothers in all but blood.
+• Bubba ↔ Susie: teenage relationship beginning around July 4, 1966; Susie gave him the nickname Bubba.
+• Bubba ↔ Roxy: biological father/daughter; Bubba never knew Roxy existed.
+• Susie ↔ Roxy: mother/daughter.
+• Bernard Blue ↔ Bubba: father/son.
+• Bernard Blue ↔ Roxy: grandfather/granddaughter.
+• G-Mack ↔ Roxy: uncle/niece relationship by chosen family and Bubba's close friendship with G-Mack.
+• Roy Greene ↔ Jerry Greene: father/son.
+• Jerry Greene ↔ Emerald Thunder: Jerry previously purchased Emerald Thunder from G-Mack.
+• Bernard Blue ↔ Emerald Thunder: original buyer according to discovered 1960 bill of sale.
+• Roy Greene ↔ Emerald Thunder: historically associated with the truck, but exact ownership relationship remains unresolved.
+
+IMPORTANT OBJECTS
+• Emerald Thunder — 1960 Chevy K-10; green; major emotional/historical object.
+• Bubba's name carved into passenger door.
+• Old photograph of teenage G-Mack and Bubba.
+• Original bill of sale naming Bernard Blue.
+• Dealership records, photographs and paperwork.
+• Biscayne — G-Mack's vehicle involved in the crash after learning of Bubba's death.
+
+LOCATIONS
+• Coachella Valley / Palm Springs.
+• Indio / Speed 'n Lube.
+• Oakland, California.
+• 2450 Montgomery Street — Susie's address.
+• Azure Sounds — Roxy's record shop, directly across from Susie's home.
+• Lake Cahuilla.
+• Old diner where G-Mack and Bubba's mothers worked.
+• Old automobile dealership where Emerald Thunder originated.
+
+ESTABLISHED FACTS
+• Bubba was killed in Vietnam.
+• Bubba never knew he had a daughter.
+• Roxy was born in 1967 shortly after Bubba shipped out.
+• Roxy is 24 in 1991.
+• Roxy strongly resembles Bubba physically and behaviorally.
+• Emerald Thunder is a 1960 Chevy K-10.
+• Bubba carved his name into the truck before leaving for Vietnam.
+• Bernard Blue is listed as the original buyer on the discovered bill of sale.
+• Roy Greene was previously regarded as the original owner.
+• Jerry Greene later purchased Emerald Thunder from G-Mack.
+• The ownership chain between Bernard Blue and Roy Greene is unresolved.
+
+REVEALS THROUGH PART TWO — IN ORDER
+1. Bubba died in Vietnam.
+2. Emerald Thunder unexpectedly returns to G-Mack.
+3. Bubba's name remains carved into Emerald Thunder.
+4. Susie Anderson is alive and living in Oakland.
+5. Susie has a daughter born in 1967.
+6. The daughter is Lauren Azure.
+7. Lauren strongly resembles Bubba.
+8. Lauren is Bubba's daughter.
+9. Bubba never knew she existed.
+10. Lauren becomes Roxy and accepts G-Mack as Uncle G.
+11. Roxy visits Palm Springs and connects directly with Emerald Thunder.
+12. Roxy's grandfather is Bernard Blue.
+13. Bernard Blue was the original buyer of Emerald Thunder according to the original bill of sale.
+14. Roy Greene's supposed status as original owner is contradicted/complicated.
+15. Jerry Greene becomes the next person G-Mack must question.
+
+OPEN THREADS / UNRESOLVED ELEMENTS
+• How did Bernard Blue's truck become associated with Roy Greene?
+• When and why did ownership transfer from Bernard Blue to Roy Greene?
+• Why did the known story identify Roy Greene as the original owner?
+• What does Jerry Greene know about his father's connection to Emerald Thunder?
+• What additional records remain in the dealership?
+• Are there additional undiscovered pieces of Bubba's history?
+• What else does Roxy still not know about her father?
+• What further role will Emerald Thunder play in uncovering the Blue family history?
+• Why did Emerald Thunder return to G-Mack at the precise moment of Bubba's death? The narrative gives it strong symbolic/miraculous significance but does not establish a literal supernatural explanation.
+• The identities/connections of the two elderly men encountered in Chapter 7 and Chapter 10 must remain separate unless later canon explicitly connects them.
+
+PART TWO THEMATIC ARC
+• Begins in 1967, with Bubba's death and G-Mack's physical/emotional collapse.
+• Emerald Thunder returns as an anchor after loss.
+• Flashing forward to 1991, Desert Storm homecomings trigger reflection on Vietnam and Bubba's absence.
+• G-Mack, 41 years old now, discovers Bubba left behind a daughter.
+• G-Mack finds Lauren, tells her about her father Bubba, and Lauren starts calling G-Mack her "Uncle G".
+• Roxy becomes a living connection to Bubba.
+• Emerald Thunder becomes a bridge between G-Mack, Bubba and Roxy.
+• Roxy's curiosity transforms the story from reunion into investigation.
+• Documentary evidence reveals Bernard Blue's connection to Emerald Thunder.
+• The story expands from G-Mack/Bubba friendship into the larger Blue family lineage.
+• Part Two ends with Jerry Greene positioned as the next key to the unresolved history.
+
+CORE THEMATIC MOVEMENT
+LOSS → SURVIVAL → REUNION → FAMILY → DISCOVERY → UNFINISHED HISTORY
+
+[END BGM BEAT-MAP CONTINUITY FOOTER]

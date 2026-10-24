@@ -2,6 +2,23 @@ TXT format tree
 
 _ellellem/1.txt
 _ellellem/2.txt
+_ellellem/_big-g-mack/_bgmstory/_2pt_story/story1.txt
+_ellellem/_big-g-mack/_bgmstory/_2pt_story/story2.txt
+_ellellem/_big-g-mack/_bgmstory/_3pt_story/ONE.txt
+_ellellem/_big-g-mack/_bgmstory/_3pt_story/THREE.txt
+_ellellem/_big-g-mack/_bgmstory/_3pt_story/TWO.txt
+_ellellem/_big-g-mack/_bgmstory/_3pt_story/bgm-bgmstory1.txt
+_ellellem/_big-g-mack/_bgmstory/_3pt_story/bgm-bgmstory2.txt
+_ellellem/_big-g-mack/_bgmstory/_3pt_story/bgm-bgmstory3.txt
+_ellellem/_big-g-mack/_bgmstory/_3pt_story/bgmstory1.txt
+_ellellem/_big-g-mack/_bgmstory/_3pt_story/bgmstory2.txt
+_ellellem/_big-g-mack/_bgmstory/_3pt_story/bgmstory3.txt
+_ellellem/_big-g-mack/_bgmstory/_full_story/bgmstory.txt
+_ellellem/_big-g-mack/_bgmstory/_working_draft/_bgmstory_working_draft.txt
+_ellellem/_big-g-mack/_persona_rico/rico.txt
+_ellellem/_big-g-mack/_persona_spec/miles.txt
+_ellellem/_gemini/googleai.txt
+_ellellem/_handshake/big_handshake1.txt
 _ellellem/ai_align.txt
 _ellellem/beat.txt
 _ellellem/beatmap.txt
@@ -91,4 +108,5 @@ _notebooklm/_overview_prompts/prompt.txt
 _notebooklm/_overview_prompts/prompts.txt
 _notebooklm/_overview_prompts/temp_prompts.txt
 _notebooklm/gh.txt
+_user/miles.txt
 persona-miguel_rico_rivera/ricogmack.txt

@@ -2,6 +2,23 @@
 
 - _ellellem/1.md
 - _ellellem/2.md
+- _ellellem/_big-g-mack/_bgmstory/_2pt_story/story1.md
+- _ellellem/_big-g-mack/_bgmstory/_2pt_story/story2.md
+- _ellellem/_big-g-mack/_bgmstory/_3pt_story/ONE.md
+- _ellellem/_big-g-mack/_bgmstory/_3pt_story/THREE.md
+- _ellellem/_big-g-mack/_bgmstory/_3pt_story/TWO.md
+- _ellellem/_big-g-mack/_bgmstory/_3pt_story/bgm-bgmstory1.md
+- _ellellem/_big-g-mack/_bgmstory/_3pt_story/bgm-bgmstory2.md
+- _ellellem/_big-g-mack/_bgmstory/_3pt_story/bgm-bgmstory3.md
+- _ellellem/_big-g-mack/_bgmstory/_3pt_story/bgmstory1.md
+- _ellellem/_big-g-mack/_bgmstory/_3pt_story/bgmstory2.md
+- _ellellem/_big-g-mack/_bgmstory/_3pt_story/bgmstory3.md
+- _ellellem/_big-g-mack/_bgmstory/_full_story/bgmstory.md
+- _ellellem/_big-g-mack/_bgmstory/_working_draft/_bgmstory_working_draft.md
+- _ellellem/_big-g-mack/_persona_rico/rico.md
+- _ellellem/_big-g-mack/_persona_spec/miles.md
+- _ellellem/_gemini/googleai.md
+- _ellellem/_handshake/big_handshake1.md
 - _ellellem/ai_align.md
 - _ellellem/beat.md
 - _ellellem/beatmap.md
@@ -91,4 +108,5 @@
 - _notebooklm/_overview_prompts/prompts.md
 - _notebooklm/_overview_prompts/temp_prompts.md
 - _notebooklm/gh.md
+- _user/miles.md
 - persona-miguel_rico_rivera/ricogmack.md
