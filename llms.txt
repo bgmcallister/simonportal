@@ -1,0 +1,38 @@
+# Portal - llms.txt
+# One line per document set. .txt versions are clean content, no nav.
+
+_ellellem/_handshake/1_handshake: 1_handshake.md | 1_handshake.txt | 1_handshake.html
+_ellellem/_handshake/2_context: 2_context.md | 2_context.txt | 2_context.html
+_ellellem/_handshake/3_mirrors: 3_mirrors.md | 3_mirrors.txt | 3_mirrors.html
+_ellellem/_handshake/4_fieldnotes: 4_fieldnotes.md | 4_fieldnotes.txt | 4_fieldnotes.html
+_ellellem/_handshake/NEW_HANDSHAKE: NEW_HANDSHAKE.md | NEW_HANDSHAKE.txt | NEW_HANDSHAKE.html
+_ellellem/_llm_prompts/audio_overview_01: audio_overview_01.md | audio_overview_01.txt | audio_overview_01.html
+_ellellem/_llm_prompts/big_handshake: big_handshake.md | big_handshake.txt | big_handshake.html
+_ellellem/_llm_prompts/big_handshake1: big_handshake1.md | big_handshake1.txt | big_handshake1.html
+_ellellem/_llm_prompts/big_handshake2: big_handshake2.md | big_handshake2.txt | big_handshake2.html
+_ellellem/_chatgpt/conversation files (GPT export, _gpt_data): conversation files (GPT export, _gpt_data).md | conversation files (GPT export, _gpt_data).txt | conversation files (GPT export, _gpt_data).html
+_ellellem/_notebooklm/bgmstory2: bgmstory2.md | bgmstory2.txt | bgmstory2.html
+_ellellem/_notebooklm/bgmstory3: bgmstory3.md | bgmstory3.txt | bgmstory3.html
+_ellellem/_notebooklm/bgmstory_part1: bgmstory_part1.md | bgmstory_part1.txt | bgmstory_part1.html
+_ellellem/_notebooklm/master_doc: master_doc.md | master_doc.txt | master_doc.html
+_ellellem/_notebooklm/cont_guide: cont_guide.md | cont_guide.txt | cont_guide.html
+_ellellem/_notebooklm/chain_of_title: chain_of_title.md | chain_of_title.txt | chain_of_title.html
+_ellellem/_notebooklm/rules_production: rules_production.md | rules_production.txt | rules_production.html
+_ellellem/_notebooklm/themes_legacy: themes_legacy.md | themes_legacy.txt | themes_legacy.html
+_ellellem/_gemini/googleai: googleai.md | googleai.txt | googleai.html
+_ellellem/_big-g-mack/_bgmstory/_3pt_story/bgmstory1: bgmstory1.md | bgmstory1.txt | bgmstory1.html
+_ellellem/_big-g-mack/_bgmstory/_3pt_story/bgm-bgmstory1: bgm-bgmstory1.md | bgm-bgmstory1.txt | bgm-bgmstory1.html
+_ellellem/_big-g-mack/_bgmstory/_3pt_story/bgmstory2: bgmstory2.md | bgmstory2.txt | bgmstory2.html
+_ellellem/_big-g-mack/_bgmstory/_3pt_story/bgm-bgmstory2: bgm-bgmstory2.md | bgm-bgmstory2.txt | bgm-bgmstory2.html
+_ellellem/_big-g-mack/_bgmstory/_3pt_story/bgmstory3: bgmstory3.md | bgmstory3.txt | bgmstory3.html
+_ellellem/_big-g-mack/_bgmstory/_3pt_story/bgm-bgmstory3: bgm-bgmstory3.md | bgm-bgmstory3.txt | bgm-bgmstory3.html
+_ellellem/_big-g-mack/_bgmstory/_3pt_story/ONE: ONE.md | ONE.txt | ONE.html
+_ellellem/_big-g-mack/_bgmstory/_3pt_story/TWO: TWO.md | TWO.txt | TWO.html
+_ellellem/_big-g-mack/_bgmstory/_3pt_story/THREE: THREE.md | THREE.txt | THREE.html
+_ellellem/_big-g-mack/_bgmstory/_2pt_story/story1: story1.md | story1.txt | story1.html
+_ellellem/_big-g-mack/_bgmstory/_2pt_story/story2: story2.md | story2.txt | story2.html
+_ellellem/_big-g-mack/_bgmstory/_full_story/bgmstory: bgmstory.md | bgmstory.txt | bgmstory.html
+_ellellem/_big-g-mack/_bgmstory/_full_story/bgmstory: bgmstory.md | bgmstory.txt | bgmstory.html
+_ellellem/_big-g-mack/_bgmstory/_working_draft/_bgmstory_working_draft: _bgmstory_working_draft.md | _bgmstory_working_draft.txt | _bgmstory_working_draft.html
+_ellellem/_big-g-mack/_persona_spec/miles: miles.md | miles.txt | miles.html
+_ellellem/_big-g-mack/_persona_rico/rico: rico.md | rico.txt | rico.html
