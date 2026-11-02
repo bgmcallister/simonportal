@@ -4,7 +4,7 @@
 <body>
 <iframe src="/simonportal/nav.html" title="Portal navigation" style="width:100%;height:360px;border:2px solid #004080"><nav><a href="/simonportal/nav.html">Full portal navigation</a></nav></iframe>
 
-<nav aria-label="Portal navigation"><p><a href="../../../../index.html">Portal home</a> | <a href="../../../../tree.html">Full file explorer</a></p><p>Format trees: <a href="../../../../md/">md</a> | <a href="../../../../txt/">txt</a> | <a href="../../../../html/">html</a></p></nav>
+<nav aria-label="Portal navigation"><p><a href="/simonportal/index.html">Portal home</a> | <a href="/simonportal/tree.html">Full file explorer</a></p><p>Format trees: <a href="/simonportal/md/">md</a> | <a href="/simonportal/txt/">txt</a> | <a href="/simonportal/html/">html</a></p></nav>
 <main><h1>gpt_saved_files</h1><pre>Android Termux LLM-to-LLM Bridge — Complete Setup Context
 
 1. PROJECT GOAL
@@ -102,7 +102,7 @@ The working solution was:
 
 The critical environment variable is:
 
-PLAYWRIGHTNODEJSPATH=$PREFIX/bin/node
+PLAYWRIGHT_NODEJS_PATH=$PREFIX/bin/node
 
 The working native browser executable is:
 
@@ -132,21 +132,21 @@ which Android/Termux does not provide in the normal Linux way.
 
 Agent A is an existing local REST API adapter based on:
 
-CodeMongerrr/cognitiveprosthetic
+CodeMongerrr/cognitive_prosthetic
 
 Repository:
 
-https://github.com/CodeMongerrr/cognitiveprosthetic
+https://github.com/CodeMongerrr/cognitive_prosthetic
 
 It controls the ChatGPT web interface through Playwright/browser automation.
 
 The repository is cloned at:
 
-~/cognitiveprosthetic
+~/cognitive_prosthetic
 
 The persistent ChatGPT browser profile is:
 
-~/cognitiveprosthetic/chatgptprofile
+~/cognitive_prosthetic/chatgpt_profile
 
 The user has already logged into ChatGPT through this persistent profile.
 
@@ -166,7 +166,7 @@ The server has also been successfully tested through its chat interface and &quo
 
 The basic server launch is:
 
-DISPLAY=:0 PLAYWRIGHTNODEJSPATH=$PREFIX/bin/node python chatgptapiserver.py
+DISPLAY=:0 PLAYWRIGHT_NODEJS_PATH=$PREFIX/bin/node python chatgpt_api_server.py
 
 The adapter uses:
 
@@ -187,15 +187,15 @@ The server&#x27;s important existing behavior should NOT be rewritten unnecessar
 
 5. CHATGPT ANDROID MODIFICATION
 
-&quot;manuallogin.py&quot; was modified specifically for Termux/Android.
+&quot;manual_login.py&quot; was modified specifically for Termux/Android.
 
 The modification establishes:
 
-PLAYWRIGHTNODEJSPATH
+PLAYWRIGHT_NODEJS_PATH
 
 and:
 
-CHROMIUMEXECUTABLE = os.path.join(
+CHROMIUM_EXECUTABLE = os.path.join(
     os.environ[&quot;PREFIX&quot;],
     &quot;lib&quot;,
     &quot;chromium&quot;,
@@ -206,8 +206,8 @@ and passes that executable to Playwright&#x27;s persistent browser context.
 
 Backups exist:
 
-manuallogin.py.bak
-chatgptapiserver.py.bak
+manual_login.py.bak
+chatgpt_api_server.py.bak
 
 If troubleshooting Agent A, remember that this Android-specific configuration is intentional.
 
@@ -227,7 +227,7 @@ Do not make the controller know anything about Playwright.
 
 The controller should simply see:
 
-sendtochatgpt(text) → responsetext
+send_to_chatgpt(text) → response_text
 
 The browser automation should remain hidden behind the local REST server.
 
@@ -336,14 +336,14 @@ UserDefaults key: sesameRefreshToken
 
 or, for development, a local file:
 
-refreshtoken
+refresh_token
 
 The repository README indicates development secrets can be supplied via:
 
-secrets/apikey
-secrets/refreshtoken
+secrets/api_key
+secrets/refresh_token
 
-and the source also supports the local &quot;refreshtoken&quot; file mechanism.
+and the source also supports the local &quot;refresh_token&quot; file mechanism.
 
 The Python adapter should preferably use a local file/environment mechanism so the secret never needs to appear in chat.
 
@@ -356,7 +356,7 @@ NEVER put the user&#x27;s actual refresh token into an LLM prompt, source-contro
 The exact token exchange observed in &quot;AuthManager.swift&quot; is:
 
 POST
-https://securetoken.googleapis.com/v1/token?key=&lt;APIKEY
+https://securetoken.googleapis.com/v1/token?key=&lt;API_KEY&gt;
 
 Content type:
 
@@ -364,16 +364,16 @@ application/x-www-form-urlencoded
 
 Body:
 
-granttype=refreshtoken
-refreshtoken=&lt;REFRESHTOKEN
+grant_type=refresh_token
+refresh_token=&lt;REFRESH_TOKEN&gt;
 
 The response contains:
 
-idtoken
+id_token
 
 and:
 
-expiresin
+expires_in
 
 The ID token is short-lived.
 
@@ -397,11 +397,11 @@ character=Miles
 
 and:
 
-usercontext=&lt;URL-encoded JSON
+usercontext=&lt;URL-encoded JSON&gt;
 
 The Swift client builds user context as:
 
-{&quot;timezone&quot;:&quot;&lt;local timezone&quot;}
+{&quot;timezone&quot;:&quot;&lt;local timezone&gt;&quot;}
 
 and URL-encodes it.
 
@@ -417,11 +417,11 @@ The exact endpoint and protocol should be treated as discovered protocol behavio
 
 The Swift client sends:
 
-Authorization: Bearer &lt;FIREBASEIDTOKEN
+Authorization: Bearer &lt;FIREBASE_ID_TOKEN&gt;
 
 Client-Name: iOS
 
-User-Agent: SesameAIBeta/2
+User-Agent: SesameAI_Beta/2
 
 The Python adapter should initially mirror these headers for maximum compatibility.
 
@@ -439,7 +439,7 @@ The observed form is:
 
 {
   &quot;jsonrpc&quot;: &quot;2.0&quot;,
-  &quot;id&quot;: &quot;&lt;UUID&quot;,
+  &quot;id&quot;: &quot;&lt;UUID&gt;&quot;,
   &quot;method&quot;: &quot;initialize&quot;,
   &quot;params&quot;: {
     &quot;capabilities&quot;: {
@@ -474,18 +474,18 @@ and constructs:
 
 {
   &quot;jsonrpc&quot;: &quot;2.0&quot;,
-  &quot;id&quot;: &quot;&lt;uuid&quot;,
-  &quot;method&quot;: &quot;&lt;method&quot;
+  &quot;id&quot;: &quot;&lt;uuid&gt;&quot;,
+  &quot;method&quot;: &quot;&lt;method&gt;&quot;
 }
 
 If raw parameters are supplied:
 
-&quot;params&quot;: &lt;rawParams
+&quot;params&quot;: &lt;rawParams&gt;
 
 Otherwise, if content is supplied:
 
 &quot;params&quot;: {
-  &quot;content&quot;: &lt;content
+  &quot;content&quot;: &lt;content&gt;
 }
 
 The request is stored in a pending-response dictionary keyed by its UUID.
@@ -509,11 +509,11 @@ The initialization response contains a session ID.
 
 The Swift client extracts:
 
-content[&quot;sessionid&quot;]
+content[&quot;session_id&quot;]
 
 or, depending on response shape:
 
-result[&quot;sessionid&quot;]
+result[&quot;session_id&quot;]
 
 The client also extracts ICE information for WebRTC.
 
@@ -525,15 +525,15 @@ After initialization, the Swift client sends several notifications related to ap
 
 These include:
 
-client.appstate
+client.app_state
 
 with:
 
-{&quot;ischatvisible&quot;: true}
+{&quot;is_chat_visible&quot;: true}
 
 and:
 
-updateprofile
+update_profile
 
 with:
 
@@ -541,7 +541,7 @@ with:
 
 and:
 
-client.voicestate
+client.voice_state
 
 with:
 
@@ -563,12 +563,12 @@ The Swift client constructs a message object:
 
 {
   &quot;sender&quot;: &quot;user&quot;,
-  &quot;content&quot;: &quot;&lt;TEXT&quot;,
+  &quot;content&quot;: &quot;&lt;TEXT&gt;&quot;,
   &quot;type&quot;: 0,
-  &quot;clientid&quot;: &quot;&lt;UUID&quot;,
-  &quot;createdat&quot;: &quot;&lt;ISO8601&quot;,
+  &quot;client_id&quot;: &quot;&lt;UUID&gt;&quot;,
+  &quot;created_at&quot;: &quot;&lt;ISO8601&gt;&quot;,
   &quot;attachments&quot;: [],
-  &quot;replysnapshots&quot;: [],
+  &quot;reply_snapshots&quot;: [],
   &quot;reactions&quot;: []
 }
 
@@ -576,26 +576,26 @@ Then sends:
 
 {
   &quot;jsonrpc&quot;: &quot;2.0&quot;,
-  &quot;id&quot;: &quot;&lt;UUID&quot;,
+  &quot;id&quot;: &quot;&lt;UUID&gt;&quot;,
   &quot;method&quot;: &quot;chat.message.create&quot;,
   &quot;params&quot;: {
     &quot;content&quot;: {
       &quot;attachments&quot;: [],
       &quot;message&quot;: {
         &quot;sender&quot;: &quot;user&quot;,
-        &quot;content&quot;: &quot;&lt;TEXT&quot;,
+        &quot;content&quot;: &quot;&lt;TEXT&gt;&quot;,
         &quot;type&quot;: 0,
-        &quot;clientid&quot;: &quot;&lt;UUID&quot;,
-        &quot;createdat&quot;: &quot;&lt;ISO8601&quot;,
+        &quot;client_id&quot;: &quot;&lt;UUID&gt;&quot;,
+        &quot;created_at&quot;: &quot;&lt;ISO8601&gt;&quot;,
         &quot;attachments&quot;: [],
-        &quot;replysnapshots&quot;: [],
+        &quot;reply_snapshots&quot;: [],
         &quot;reactions&quot;: []
       }
     }
   }
 }
 
-The &quot;clientid&quot; is a UUID.
+The &quot;client_id&quot; is a UUID.
 
 The timestamp is ISO-8601 with the client&#x27;s formatter.
 
@@ -617,7 +617,7 @@ chat.streaming.end
 
 A streaming start contains:
 
-messageid
+message_id
 
 and:
 
@@ -625,7 +625,7 @@ sender
 
 Each chunk contains:
 
-messageid
+message_id
 text
 
 The Python adapter should accumulate the chunk text for the same message ID.
@@ -659,16 +659,16 @@ Do not return individual chunks to the LLM controller unless streaming display i
 The client can also receive:
 
 chat
-typingstart
-chatunreadcount
+typing_start
+chat_unread_count
 agent
-webrtc.
-call.
+webrtc.*
+call.*
 
 For the text-to-text bridge, initially ignore:
 
-webrtc.
-call.
+webrtc.*
+call.*
 
 and other UI-specific events unless they prove necessary.
 
@@ -740,11 +740,11 @@ Create a small Python Sesame adapter.
 
 Prefer something like:
 
-~/sesame-client-unofficial/sesametextadapter.py
+~/sesame-client-unofficial/sesame_text_adapter.py
 
 The adapter should expose a simple interface such as:
 
-sendmessage(text) - responsetext
+send_message(text) -&gt; response_text
 
 Internally it should:
 
@@ -903,7 +903,7 @@ Sesame.send(text)
 
 Then:
 
-initialprompt → Agent A
+initial_prompt → Agent A
 Agent A response → Agent B
 Agent B response → Agent A
 Agent A response → Agent B
@@ -992,5 +992,5 @@ streaming chunks
 completed response
 
 Only after that works should the two-LLM controller be created.</pre></main>
-<nav aria-label="Portal navigation"><p><a href="../../../../index.html">Portal home</a> | <a href="../../../../tree.html">Full file explorer</a></p></nav>
+<nav aria-label="Portal navigation"><p><a href="/simonportal/index.html">Portal home</a> | <a href="/simonportal/tree.html">Full file explorer</a></p></nav>
 </body></html>
